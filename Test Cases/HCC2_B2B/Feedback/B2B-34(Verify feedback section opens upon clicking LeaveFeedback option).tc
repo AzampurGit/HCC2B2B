@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-34(Verify feedback section opens upon clicking LeaveFeedback option)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08bad7d8-6675-489f-a06d-614936e7c790</testCaseGuid>
+</TestCaseEntity>

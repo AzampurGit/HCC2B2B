@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-290(Verify on choosing ClickNCollect, store selection is mandatory)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab660789-cb18-4def-9cb7-e6a94619788b</testCaseGuid>
+</TestCaseEntity>

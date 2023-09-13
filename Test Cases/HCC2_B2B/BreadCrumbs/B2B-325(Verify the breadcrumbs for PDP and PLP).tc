@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-325(Verify the breadcrumbs for PDP and PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8180775-3228-49a5-892d-944f538fd904</testCaseGuid>
+</TestCaseEntity>

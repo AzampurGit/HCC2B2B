@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-113(Verify User navigate to Return Policies link from My Account)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>460753ab-c5dc-44d4-84c7-d5c4bf8eb7b6</testCaseGuid>
+</TestCaseEntity>

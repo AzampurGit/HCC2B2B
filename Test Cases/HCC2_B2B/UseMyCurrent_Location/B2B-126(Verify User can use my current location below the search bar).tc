@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-126(Verify User can use my current location below the search bar)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f140397-1d00-4563-b561-c65629e990d3</testCaseGuid>
+</TestCaseEntity>

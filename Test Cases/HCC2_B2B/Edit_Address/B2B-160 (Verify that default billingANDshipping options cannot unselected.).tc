@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-160 (Verify that default billingANDshipping options cannot unselected.)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5a811b0-7675-4805-8823-975f8ee85214</testCaseGuid>
+</TestCaseEntity>

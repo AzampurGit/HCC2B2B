@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-121(Verify user search the store using postcode through findAStore)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>549e0724-774a-40bc-bed7-6252bb1939ab</testCaseGuid>
+</TestCaseEntity>

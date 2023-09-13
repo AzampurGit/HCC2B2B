@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-129(Verify User can view the list of stores based on search)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8d0d024-861c-453f-a124-c30614be5373</testCaseGuid>
+</TestCaseEntity>

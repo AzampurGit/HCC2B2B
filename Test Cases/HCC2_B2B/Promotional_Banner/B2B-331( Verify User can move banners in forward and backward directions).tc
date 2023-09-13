@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-331( Verify User can move banners in forward and backward directions)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b46cd660-7350-4245-b9c3-832c14346f85</testCaseGuid>
+</TestCaseEntity>

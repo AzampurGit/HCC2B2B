@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-237(Verify user can remove multiple products from Favourite list page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea3d35a4-5f8a-446f-8aaa-45f3d1c55864</testCaseGuid>
+</TestCaseEntity>

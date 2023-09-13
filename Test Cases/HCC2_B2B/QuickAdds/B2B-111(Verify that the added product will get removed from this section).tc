@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-111(Verify that the added product will get removed from this section)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a70866da-dd74-492a-8bd5-07136641f28d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-79(Verify that user can navigate to any page after adding product.)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2644505-4e2a-47ed-98ef-a062a41c805e</testCaseGuid>
+</TestCaseEntity>

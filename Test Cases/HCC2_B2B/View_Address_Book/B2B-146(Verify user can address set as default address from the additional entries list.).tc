@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-146(Verify user can address set as default address from the additional entries list.)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae5bce38-041e-4121-a259-3c5ed27129de</testCaseGuid>
+</TestCaseEntity>

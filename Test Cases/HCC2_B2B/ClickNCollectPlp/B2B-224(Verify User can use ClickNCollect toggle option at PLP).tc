@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-224(Verify User can use ClickNCollect toggle option at PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b49cd5bb-44f3-4dc5-a60d-0b47f3c2c944</testCaseGuid>
+</TestCaseEntity>

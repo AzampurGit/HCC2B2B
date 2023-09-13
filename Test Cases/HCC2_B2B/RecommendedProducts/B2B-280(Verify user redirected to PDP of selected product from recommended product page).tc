@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-280(Verify user redirected to PDP of selected product from recommended product page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94685791-b650-408c-b1dc-e7a471b39256</testCaseGuid>
+</TestCaseEntity>

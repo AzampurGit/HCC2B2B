@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-57(Verify user can use sort by filter option to fasten search time at PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df55267f-e77f-408e-b7e6-e8ae28ff131f</testCaseGuid>
+</TestCaseEntity>

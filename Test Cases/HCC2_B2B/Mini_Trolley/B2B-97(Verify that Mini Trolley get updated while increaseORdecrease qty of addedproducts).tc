@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-97(Verify that Mini Trolley get updated while increaseORdecrease qty of addedproducts)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>316065ca-cc1f-44ec-b384-2ecc75d8cc5b</testCaseGuid>
+</TestCaseEntity>

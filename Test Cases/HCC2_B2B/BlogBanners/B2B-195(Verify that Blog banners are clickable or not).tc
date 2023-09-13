@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-195(Verify that Blog banners are clickable or not)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47c5d8a2-fce2-4ed0-b592-777e4ff769d5</testCaseGuid>
+</TestCaseEntity>

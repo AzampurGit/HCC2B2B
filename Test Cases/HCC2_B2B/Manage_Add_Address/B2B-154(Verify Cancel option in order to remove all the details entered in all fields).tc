@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-154(Verify Cancel option in order to remove all the details entered in all fields)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c41488dc-04b5-4b00-8ad1-7580183355f4</testCaseGuid>
+</TestCaseEntity>

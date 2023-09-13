@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-1(Verify user should register themself with valid data from my account option)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64e2edb4-cff0-4614-b091-4596563ec921</testCaseGuid>
+</TestCaseEntity>

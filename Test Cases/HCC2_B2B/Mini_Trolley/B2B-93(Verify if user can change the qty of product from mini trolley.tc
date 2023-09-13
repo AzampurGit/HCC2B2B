@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-93(Verify if user can change the qty of product from mini trolley</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f067ca03-af56-4ca6-afa0-dd06cf361a03</testCaseGuid>
+</TestCaseEntity>

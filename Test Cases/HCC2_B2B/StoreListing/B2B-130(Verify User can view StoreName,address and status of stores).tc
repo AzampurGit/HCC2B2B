@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-130(Verify User can view StoreName,address and status of stores)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cf7e4f1-bfdf-4f6c-89af-52f7a6d0915e</testCaseGuid>
+</TestCaseEntity>

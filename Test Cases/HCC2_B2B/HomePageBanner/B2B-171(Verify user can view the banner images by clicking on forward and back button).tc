@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-171(Verify user can view the banner images by clicking on forward and back button)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd1e75dc-77ed-4493-9d77-e73994c7f42b</testCaseGuid>
+</TestCaseEntity>

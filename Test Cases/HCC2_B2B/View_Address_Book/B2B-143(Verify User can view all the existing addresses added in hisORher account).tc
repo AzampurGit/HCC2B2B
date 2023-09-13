@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-143(Verify User can view all the existing addresses added in hisORher account)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f03bd8b-5a50-4fe3-835c-7b664c44f13f</testCaseGuid>
+</TestCaseEntity>

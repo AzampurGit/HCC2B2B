@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-81(Verify that logged in user can access my favourites list)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6faa33b-8070-4956-9bcc-22d8fafa2878</testCaseGuid>
+</TestCaseEntity>

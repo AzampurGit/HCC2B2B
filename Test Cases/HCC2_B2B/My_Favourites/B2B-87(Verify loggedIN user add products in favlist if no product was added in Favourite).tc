@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-87(Verify loggedIN user add products in favlist if no product was added in Favourite)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c018f1d3-5c39-4c9a-83c6-ffcc90f3a7d1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-3(Verify that user can enter minimum 1 character into First and lastName)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87ce059d-af42-49a3-9ce1-ff94aded8013</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-6(Verify that mandatory validation will displays with empty first and last name fields)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faf2a9a5-8357-4bf0-9c2c-8fb398f7fb1f</testCaseGuid>
+</TestCaseEntity>

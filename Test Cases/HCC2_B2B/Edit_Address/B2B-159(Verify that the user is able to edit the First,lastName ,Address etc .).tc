@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-159(Verify that the user is able to edit the First,lastName ,Address etc .)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a731e240-a5da-4ece-b35a-e20491dcd096</testCaseGuid>
+</TestCaseEntity>

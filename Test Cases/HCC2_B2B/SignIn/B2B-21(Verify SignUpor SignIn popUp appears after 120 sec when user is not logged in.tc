@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-21(Verify SignUpor SignIn popUp appears after 120 sec when user is not logged in</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>791bcc3e-382f-42e5-99a0-ba9dc9dba511</testCaseGuid>
+</TestCaseEntity>

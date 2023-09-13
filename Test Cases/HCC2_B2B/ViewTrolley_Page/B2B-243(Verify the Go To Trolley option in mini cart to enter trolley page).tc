@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-243(Verify the Go To Trolley option in mini cart to enter trolley page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebb303ff-6a67-4c52-9fad-7d20a909fdb9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-95(Verify that the latest product added will be at the top of the list)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc6a6afc-9cde-450f-af9e-4b428e1d5647</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-182(Verify User can view out of stock labels at home page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de372aad-7ee0-4182-8af3-e799b637658a</testCaseGuid>
+</TestCaseEntity>

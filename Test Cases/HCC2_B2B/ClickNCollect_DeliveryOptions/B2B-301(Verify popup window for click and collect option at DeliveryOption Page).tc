@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-301(Verify popup window for click and collect option at DeliveryOption Page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d64a8cb-55c2-430d-9173-c0770addd603</testCaseGuid>
+</TestCaseEntity>

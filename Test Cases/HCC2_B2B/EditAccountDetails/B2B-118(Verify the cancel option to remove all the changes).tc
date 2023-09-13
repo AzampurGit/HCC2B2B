@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-118(Verify the cancel option to remove all the changes)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09b24763-39f8-4191-ae85-894fd3da6fbc</testCaseGuid>
+</TestCaseEntity>

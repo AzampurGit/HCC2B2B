@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-35(Verify user access product listing page from various sections of the website)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74f88f68-4e44-4622-8ad0-38744c1ff3ec</testCaseGuid>
+</TestCaseEntity>

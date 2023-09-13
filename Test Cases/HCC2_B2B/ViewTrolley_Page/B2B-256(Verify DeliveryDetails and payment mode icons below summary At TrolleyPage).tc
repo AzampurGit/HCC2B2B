@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-256(Verify DeliveryDetails and payment mode icons below summary At TrolleyPage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74be8ff0-f527-4f20-802c-f586af45da1b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-99(Verify user can Calculate and recalculate POR in minin Trolley</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d3c584a-1d66-41c9-9f0c-8c26c794299d</testCaseGuid>
+</TestCaseEntity>

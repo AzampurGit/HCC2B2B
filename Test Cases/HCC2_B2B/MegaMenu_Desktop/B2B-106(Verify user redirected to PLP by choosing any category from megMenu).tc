@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-106(Verify user redirected to PLP by choosing any category from megMenu)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8fb1e07-bd7f-4ad1-9970-414c2c02e83a</testCaseGuid>
+</TestCaseEntity>

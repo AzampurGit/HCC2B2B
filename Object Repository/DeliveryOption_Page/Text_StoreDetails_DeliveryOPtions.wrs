@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>Text_StoreDetails_DeliveryOPtions</name>
+   <tag></tag>
+   <locator>//span[contains(text(),'Store Details')]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</WindowsElementEntity>

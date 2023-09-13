@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-107(Verify that the main navigation will go till 3 levels from MegaMenu)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efab19e6-7299-49ff-857b-49aa323c2fac</testCaseGuid>
+</TestCaseEntity>

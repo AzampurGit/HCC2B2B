@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-74(Verify the add to cart button to add product to the trolley.)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02401adb-3ba7-496b-bf2d-20c9da4009d2</testCaseGuid>
+</TestCaseEntity>

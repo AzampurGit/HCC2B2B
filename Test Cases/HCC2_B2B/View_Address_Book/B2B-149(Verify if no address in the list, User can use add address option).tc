@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-149(Verify if no address in the list, User can use add address option)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81aaa7c4-2a23-4393-b28d-582af3fc367e</testCaseGuid>
+</TestCaseEntity>

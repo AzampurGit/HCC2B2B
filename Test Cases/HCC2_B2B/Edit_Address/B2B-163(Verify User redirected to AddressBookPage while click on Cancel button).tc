@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-163(Verify User redirected to AddressBookPage while click on Cancel button)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>049345d0-62b7-43b1-acb2-7b4a67c38cd0</testCaseGuid>
+</TestCaseEntity>

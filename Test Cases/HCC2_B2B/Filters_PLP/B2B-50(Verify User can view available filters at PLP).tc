@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-50(Verify User can view available filters at PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>beda09d1-1b22-4a7f-918a-1f6bc1edc624</testCaseGuid>
+</TestCaseEntity>

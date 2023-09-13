@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-91(Verify Mini trolley icon also gets updated based on the number of products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9313b46b-bf51-4c72-b7bf-7a1be0804ec7</testCaseGuid>
+</TestCaseEntity>

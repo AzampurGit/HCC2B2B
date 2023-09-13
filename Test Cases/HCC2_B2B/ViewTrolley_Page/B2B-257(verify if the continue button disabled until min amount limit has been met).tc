@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-257(verify if the continue button disabled until min amount limit has been met)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6ed24db-0ce7-4661-ace4-62e4f7c3269e</testCaseGuid>
+</TestCaseEntity>

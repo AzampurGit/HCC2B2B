@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-226(Verify User can view clickNcollect and delivery avialable product in plp list)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af7392b2-6661-437e-933a-dd6dbb724040</testCaseGuid>
+</TestCaseEntity>

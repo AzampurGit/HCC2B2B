@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-147(Verify that the address will be removed from the additional address list)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f19f7540-369f-4435-9b48-e854bbb94acc</testCaseGuid>
+</TestCaseEntity>

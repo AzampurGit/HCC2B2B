@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-202(Verify user can view more blogs if exists by clicking on load more button)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3f8bd99-9d60-4616-8331-b85c93cd7850</testCaseGuid>
+</TestCaseEntity>

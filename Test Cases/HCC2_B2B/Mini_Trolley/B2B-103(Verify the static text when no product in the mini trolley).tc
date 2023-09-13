@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-103(Verify the static text when no product in the mini trolley)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50f5f11b-69b2-4dc8-bf96-f36aaeb91824</testCaseGuid>
+</TestCaseEntity>

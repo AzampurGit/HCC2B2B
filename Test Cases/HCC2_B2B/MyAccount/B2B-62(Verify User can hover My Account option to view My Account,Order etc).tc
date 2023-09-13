@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-62(Verify User can hover My Account option to view My Account,Order etc)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2f2ac69-783f-493b-afe8-b24034eb2590</testCaseGuid>
+</TestCaseEntity>

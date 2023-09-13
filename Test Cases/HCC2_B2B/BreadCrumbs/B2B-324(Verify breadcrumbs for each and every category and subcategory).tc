@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-324(Verify breadcrumbs for each and every category and subcategory)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acc1976a-445f-428e-888d-0f6e62bd7466</testCaseGuid>
+</TestCaseEntity>

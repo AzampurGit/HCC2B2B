@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-303(Verify user search location name by entering city postal address)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8025834-cf8b-4e82-b1c0-e8d17068cc4d</testCaseGuid>
+</TestCaseEntity>

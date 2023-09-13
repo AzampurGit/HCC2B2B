@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-152(Verify validations for the mandatory fields while adding new address)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55e6d0de-9586-4bf0-954c-1cf3ccb7a344</testCaseGuid>
+</TestCaseEntity>

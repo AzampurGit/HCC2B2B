@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-55(Verify User can remove the added filter at PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c325e25f-0ff8-4327-8bfa-4db634a03253</testCaseGuid>
+</TestCaseEntity>

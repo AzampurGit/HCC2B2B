@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-179(Verify User can view 3 banner Images at HomePage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8298b22-5cef-4cff-8499-9dfecda7d4d5</testCaseGuid>
+</TestCaseEntity>

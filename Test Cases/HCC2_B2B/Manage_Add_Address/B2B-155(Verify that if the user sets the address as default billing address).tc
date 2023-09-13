@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-155(Verify that if the user sets the address as default billing address)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2d58e72-a91a-44dc-9eec-f26888eeb3a6</testCaseGuid>
+</TestCaseEntity>

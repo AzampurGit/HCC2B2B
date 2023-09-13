@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-145(Verify user can add multiple additional addresses in hisORher account)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9809d06b-6166-4658-9634-8b4d873beed2</testCaseGuid>
+</TestCaseEntity>

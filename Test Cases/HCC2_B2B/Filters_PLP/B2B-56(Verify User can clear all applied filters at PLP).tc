@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-56(Verify User can clear all applied filters at PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a3025b6-f617-4f64-b7b0-9cb105b7d544</testCaseGuid>
+</TestCaseEntity>

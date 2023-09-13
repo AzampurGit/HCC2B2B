@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-65(Verify mandatory validation for Get update Subscription at home Page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c4339bb-0366-4add-81f5-5b7695b7d0b3</testCaseGuid>
+</TestCaseEntity>

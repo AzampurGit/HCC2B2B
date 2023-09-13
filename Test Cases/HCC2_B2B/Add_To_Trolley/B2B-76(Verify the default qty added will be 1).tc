@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-76(Verify the default qty added will be 1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df64af02-961f-464a-8628-b2c20e0b2053</testCaseGuid>
+</TestCaseEntity>

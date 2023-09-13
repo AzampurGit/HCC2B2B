@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-352(Verify if user clicks on RemoveAll, out of stock products will disappear)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67945f9b-34f9-4d05-8e6b-4aa55704761f</testCaseGuid>
+</TestCaseEntity>

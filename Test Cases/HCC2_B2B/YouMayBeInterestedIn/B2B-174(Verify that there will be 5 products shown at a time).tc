@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-174(Verify that there will be 5 products shown at a time)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>436fae4f-2df3-4324-ba25-627e276d5fdd</testCaseGuid>
+</TestCaseEntity>

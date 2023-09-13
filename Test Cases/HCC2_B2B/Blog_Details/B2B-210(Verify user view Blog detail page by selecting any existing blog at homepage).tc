@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-210(Verify user view Blog detail page by selecting any existing blog at homepage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0860fd71-0508-4ca3-962f-5c2acbf98ed5</testCaseGuid>
+</TestCaseEntity>

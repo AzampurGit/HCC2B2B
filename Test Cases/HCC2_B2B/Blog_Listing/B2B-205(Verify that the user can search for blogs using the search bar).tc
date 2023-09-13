@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-205(Verify that the user can search for blogs using the search bar)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5471f8eb-f8a3-446b-bb99-cb261cdb9cd2</testCaseGuid>
+</TestCaseEntity>

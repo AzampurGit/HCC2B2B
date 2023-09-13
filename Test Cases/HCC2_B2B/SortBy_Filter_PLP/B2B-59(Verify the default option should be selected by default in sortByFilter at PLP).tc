@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-59(Verify the default option should be selected by default in sortByFilter at PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd7a669c-4900-41b4-af39-dc4564f0d2a5</testCaseGuid>
+</TestCaseEntity>

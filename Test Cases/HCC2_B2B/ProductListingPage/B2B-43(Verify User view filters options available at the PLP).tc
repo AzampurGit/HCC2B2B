@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-43(Verify User view filters options available at the PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb9d40b6-592b-4ed7-b074-2cef72d34c95</testCaseGuid>
+</TestCaseEntity>

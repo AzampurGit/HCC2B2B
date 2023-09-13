@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-281(Verify that the user can add any products in the trolley from Recommeded page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc1d7757-9e7f-4e85-a51f-c5bab06105dc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-306(Verify User redirected to storeDetailPaeg by clicking on Store information link)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dfb5c34-ad3d-4e46-9cd0-82b43bf9d0a2</testCaseGuid>
+</TestCaseEntity>

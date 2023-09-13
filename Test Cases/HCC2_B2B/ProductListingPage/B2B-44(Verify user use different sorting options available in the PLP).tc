@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-44(Verify user use different sorting options available in the PLP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6df01f9-0322-4744-b180-7c503c84dd1c</testCaseGuid>
+</TestCaseEntity>

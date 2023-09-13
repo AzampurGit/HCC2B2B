@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-64(Verify clicking My Account option, user should navigated to the detailed section)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba7728f5-3f8f-4adc-bdd1-3ce250471879</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-2(Verify user redirects to signUpPage by click on createAccount link under my account)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1aa1d426-4aff-4719-b86c-0f0bf0caf4c2</testCaseGuid>
+</TestCaseEntity>

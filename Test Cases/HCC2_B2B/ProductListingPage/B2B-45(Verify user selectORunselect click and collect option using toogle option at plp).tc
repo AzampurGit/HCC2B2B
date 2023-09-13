@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-45(Verify user selectORunselect click and collect option using toogle option at plp)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f115c155-dd44-48c8-b4ed-aed10d4da739</testCaseGuid>
+</TestCaseEntity>
