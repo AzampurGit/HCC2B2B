@@ -21,7 +21,7 @@ import internal.GlobalVariable
 public class Customer_Detail {
 	@Keyword
 	def ContinueButton() {
-		WebUI.verifyElementPresent(findTestObject('ObjectRepository/Customer_Detail/Button_Continue'), 5)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Customer_Detail/Button_Continue'), 5)
 		WebUI.click(findTestObject('Object Repository/Customer_Detail/Button_Continue'))
 		WebUI.click(findTestObject('Object Repository/Customer_Detail/Button_Continue'))
 		Thread.sleep(5000)
@@ -45,8 +45,9 @@ public class Customer_Detail {
 	@Keyword
 	def VerifyLoggedInEmailOnCheckOut() {
 		ContinueButton()
-		WebUI.verifyElementPresent(findTestObject('ObjectRepository/Customer_Detail/VerifyLoggedUser_Email'), 3)
-		String LoggedIn_User = WebUI.getText(findTestObject('ObjectRepository/Customer_Detail/VerifyLoggedUser_Email'))
+
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Customer_Detail/VerifyLoggedUser_Email'), 3)
+		String LoggedIn_User = WebUI.getText(findTestObject('Object Repository/Customer_Detail/VerifyLoggedUser_Email'))
 		WebUI.verifyEqual(LoggedIn_User, GlobalVariable.LoggedInUser)
 		System.out.println("User email  "+ LoggedIn_User)
 	}
