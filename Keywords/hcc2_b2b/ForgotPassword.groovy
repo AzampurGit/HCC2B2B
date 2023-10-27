@@ -22,14 +22,18 @@ import internal.GlobalVariable
 
 public class ForgotPassword {
 
-	@Keyword
-	def ValidateForgotPassword() {
 
+	@Keyword
+	def OpenBrowserAndRedirectToAppUrl() {
 		WebUI.openBrowser('')
 
 		WebUI.maximizeWindow()
 
 		WebUI.navigateToUrl(GlobalVariable.StagingUrl)
+	}
+
+	@Keyword
+	def ValidateForgotPassword() {
 
 		WebUI.mouseOver(findTestObject('Object Repository/SignUp/My_Account'))
 
@@ -52,12 +56,6 @@ public class ForgotPassword {
 
 	def RedirectToForgotPasswordPage() {
 
-		WebUI.openBrowser('')
-
-		WebUI.maximizeWindow()
-
-		WebUI.navigateToUrl(GlobalVariable.StagingUrl)
-
 		WebUI.mouseOver(findTestObject('Object Repository/SignUp/My_Account'))
 
 		WebUI.click(findTestObject('Object Repository/SignIn/Button_Login_SignIn'))
@@ -65,5 +63,58 @@ public class ForgotPassword {
 		WebUI.click(findTestObject('Object Repository/SignIn/Link_ForgotPassword'))
 
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ForgotPassword/Text_ForgotPass_PageName')) == true :"assert passed."
+	}
+
+	@Keyword
+	def CheckResetPasswordValidationMessage(String Email) {
+		WebUI.sendKeys(findTestObject('Object Repository/ForgotPassword/Textbox_EmailID_ForgotPassword'), Email)
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Button_ResetPassword_ForgotPass'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/ForgotPassword/Text_resetMailSent_Forgot'), 5)
+	}
+	@Keyword
+	def LoginToEmailAccountForResetPassword(String Email , String MailinatorUrl) {
+		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl(MailinatorUrl)
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Link_Mailinator_inbox'))
+		WebUI.sendKeys(findTestObject('Object Repository/ForgotPassword/Mailinator_Email'), Email)
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Button_Go_Mailinator'))
+	}
+	@Keyword
+	def CheckResetPasswordValidationsResetPass( String Password,String ConfirmPassForgot) {
+
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Text_Open_ResetPass_Mail'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/ForgotPassword/Link_maillinatr'), 5)
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Link_maillinatr'))
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/ForgotUrl_Mailinator'))
+		WebUI.switchToWindowIndex((1))
+		WebUI.sendKeys(findTestObject('Object Repository/ForgotPassword/Textbox_NewPass_Forgot'), Password)
+		WebUI.sendKeys(findTestObject('Object Repository/ForgotPassword/Textbox_ConfirmPass_Forgot'), ConfirmPassForgot)
+		// check validations for confirm password using new password data.
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Button_ChangePass_Forgot'))
+		WebUI.switchToWindowIndex(0)
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Link_Back_inbox_Mailinator'))
+	}
+	@Keyword
+	def DeleteMailsFromMailinator() {
+
+		for (int i=0;i<3;i++) {
+			WebUI.click(findTestObject('Object Repository/ForgotPassword/Checkbox_Email_mailinator'))
+			WebUI.click(findTestObject('Object Repository/ForgotPassword/Button_delete_Mails'))
+		}
+	}
+	@Keyword
+	def VerifyResetPasswordInEncryptedForm() {
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Text_Open_ResetPass_Mail'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/ForgotPassword/Link_maillinatr'), 5)
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Link_maillinatr'))
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/ForgotUrl_Mailinator'))
+		WebUI.switchToWindowIndex((1))
+		WebUI.sendKeys(findTestObject('Object Repository/ForgotPassword/Textbox_NewPass_Forgot'), GlobalVariable.Password)
+	}
+	@Keyword
+	def DeleteOneMailFromMailinator() {
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Checkbox_Email_mailinator'))
+		WebUI.click(findTestObject('Object Repository/ForgotPassword/Button_delete_Mails'))
 	}
 }

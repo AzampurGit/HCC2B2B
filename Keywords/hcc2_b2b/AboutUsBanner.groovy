@@ -36,10 +36,9 @@ public class AboutUsBanner {
 	@Keyword
 	def CheckDetailsOfAboutUsBanner() {
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/AboutUs_Banner/Text_title_AboutUsBanner')) == true
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/AboutUs_Banner/Text_AboutUsBanner'))	 ==  true
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/AboutUs_Banner/Text_AboutUsBanner')) ==  true
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/AboutUs_Banner/Image_AboutUsBanner')) == true
 	}
-
 	@Keyword
 	def ClickOnAboutUsBanner() {
 		

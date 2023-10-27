@@ -76,7 +76,7 @@ public class CreateAccount {
 		WebUI.click(findTestObject('Object Repository/SignUp/Button_CreateAccountFromLoginPopUp'))
 	}
 
-
+	
 
 
 	@Keyword
@@ -87,17 +87,13 @@ public class CreateAccount {
 		println(rndNumber)
 	}
 
-
-
 	@Keyword
-
 	def CreateAccountWithValidData() {
-
 
 		WebUI.sendKeys(findTestObject('Object Repository/SignUp/TextBox_FirstName'),GlobalVariable.FirstName)
 		WebUI.sendKeys(findTestObject('Object Repository/SignUp/TextBox_LastName'), GlobalVariable.LastName)
 		Random randomGenerator = new Random()
-		def randomEmail="user"+ randomGenerator.nextInt(1000) + "@yopmail.com"
+		def randomEmail="user"+ randomGenerator.nextInt(100000) + "@yopmail.com"
 		WebUI.sendKeys(findTestObject('Object Repository/SignUp/TextBox_EmailId'),randomEmail )
 		WebUI.sendKeys(findTestObject('Object Repository/SignUp/TextBox_Password'), GlobalVariable.Password)
 		WebUI.sendKeys(findTestObject('Object Repository/SignUp/TextBox_ConfirmPassword'), GlobalVariable.Password)

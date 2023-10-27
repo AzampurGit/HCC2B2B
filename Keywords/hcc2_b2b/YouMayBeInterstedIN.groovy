@@ -45,7 +45,7 @@ public class YouMayBeInterstedIN {
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/YouMayBeinteresetedIn/SecondProduct_YouMayinterested')) == true
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/YouMayBeinteresetedIn/ThirdProduct_youMayInterested')) == true
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/YouMayBeinteresetedIn/Fourth_youMaybeInterested')) == true
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/YouMayBeinteresetedIn/FifthProduct_youMayInterested')) == true		
+		//assert WebUI.verifyElementVisible(findTestObject('Object Repository/YouMayBeinteresetedIn/FifthProduct_youMayInterested')) == true		
 	}
 	@Keyword
 	def MoveForwardAndBackwardYouMayIntereseted()

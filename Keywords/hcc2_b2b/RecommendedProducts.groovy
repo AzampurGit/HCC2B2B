@@ -42,6 +42,7 @@ public class RecommendedProducts {
 	@Keyword
 	def AddProductInTrolleyFromRecommendedPage()
 	{
+	 WebUI.scrollToElement(findTestObject('Object Repository/RecommendedProducts/Text_BeforeYouGo_recommened'), 3)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/RecommendedProducts/Button_AddProduct_RecommendedProducts'), 3)
 		WebUI.click(findTestObject('Object Repository/RecommendedProducts/Button_AddProduct_RecommendedProducts'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/RecommendedProducts/_Textbox_AddedProductsInCart_Recommended')) == true

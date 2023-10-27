@@ -53,7 +53,9 @@ public class MiniTrolley {
 
 		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_deleteFromMiniTrolley'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'), 4)
+		
+		WebUI.click(findTestObject('Object Repository/Payment_Methods/Button_RemoveProduct_Cart_popup'))
 
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/MiniTrolley/Message_RemoveFromMinicart')) == true
 	}

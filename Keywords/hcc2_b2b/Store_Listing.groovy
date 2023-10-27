@@ -30,6 +30,7 @@ public class Store_Listing {
    @Keyword
    def CheckStoreNameAddressANDstatusOfStore()
    {
+	   WebUI.verifyElementPresent(findTestObject('Object Repository/CMSPages_FooterLinks/Footer_FindAStore'), 4)
 	   WebUI.click(findTestObject('Object Repository/CMSPages_FooterLinks/Footer_FindAStore'))
 	   assert WebUI.verifyElementPresent(findTestObject('Object Repository/Store_Listing/Text_StoreName'), 3) ==  true
 	   assert WebUI.verifyElementPresent(findTestObject('Object Repository/Store_Listing/Text_StoreAddress'), 2) ==  true

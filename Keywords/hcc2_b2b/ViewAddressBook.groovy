@@ -49,10 +49,9 @@ public class ViewAddressBook {
 		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_PhoneNumnber'), GlobalVariable.PhoneNumber)
 		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_AddrressLine1'), GlobalVariable.StreetAddress)
 		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_Town'), GlobalVariable.Town)
-		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_postcode'), GlobalVariable.PostCode)
+		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_postcode'), GlobalVariable.postcodeSW)
 		WebUI.click(findTestObject('Object Repository/ViewAddressBook/Button_SaveAddress_Address'))
 	}
-
 
 	@Keyword
 
@@ -60,7 +59,6 @@ public class ViewAddressBook {
 		WebUI.click(findTestObject('Object Repository/ViewAddressBook/Link_EditAddress_AdditionalAddress'))
 		WebUI.click(findTestObject('Object Repository/ViewAddressBook/Checkbox_SetDefaultAddress'))
 		WebUI.click(findTestObject('Object Repository/ViewAddressBook/Button_SaveAddress_Address'))
-		// Currently not working, pending to resolve from dev End.
 	}
 
 	@Keyword

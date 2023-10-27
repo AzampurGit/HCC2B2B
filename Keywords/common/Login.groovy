@@ -32,6 +32,8 @@ public class Login {
 
 		WebUI.navigateToUrl(GlobalVariable.StagingUrl)
 
+		WebUI.waitForElementPresent(findTestObject('Object Repository/SignUp/My_Account'), 3)
+
 		WebUI.mouseOver(findTestObject('Object Repository/SignUp/My_Account'))
 
 		WebUI.click(findTestObject('Object Repository/SignIn/Button_SignIn_From_MyAccount'))

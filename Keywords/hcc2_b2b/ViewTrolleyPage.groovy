@@ -23,9 +23,12 @@ import internal.GlobalVariable
 public class ViewTrolleyPage {
 	@Keyword
 	def CheckGoToTrolleyOptionInMiniCart() {
-		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/AddToTrolley'))
-		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_AddSecondProduct_Home'))
-		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_AddThirdProduct_Home'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), 6)
+		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'))
+		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), GlobalVariable.SKUInStock)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Add_Search'), 8)
+		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Add_Search'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'), 5)
 		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
 		WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'))
 		WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'), GlobalVariable.MiniCartQty)
@@ -78,51 +81,81 @@ public class ViewTrolleyPage {
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Remove_TrolleyPage'))
 		assert WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_Item_RemovedFromTrolley'), 3) == true
 	}
-	 @Keyword
-	 def AddProductInTrolleyPage()
-	 {
-		 WebUI.click(findTestObject('Object Repository/Add_ToTrolley/AddToTrolley'))
-		 WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
-		 WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'))
-		 WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'), GlobalVariable.MiniCartQty)
-		 WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_IncreaseQty_Minicart'))
-		 WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_GoToTRolley_MiniCart'))
-	 }
-	 @Keyword
-	 def CheckRedirectiontoPDPfromTrolleyPage()
-	 {
-		 WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Link_productTitle_trolleyPage'))
-		 // assertion pending currently page redirecting to 404
-	 }
-	 @Keyword
-	 def CheckStatictextforEmptyTrolleyAtTrolleyPage()
-	 {
-		 assert WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_EmptyTrolley_TrolleyPage'), 3) == true
-	 }
-	 @Keyword
-	 def CheckAddThisUnderTextAtTrolleyPage()
-	 {
-		 assert WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_AddThisUnder_TrolleyPage'), 2) == true
-	 }
-	 @Keyword
-	 def CheckDeliveryAndPaymentMethodAtTrolleyPage()
-	 {
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_Delivered_TrolleyPage')) == true
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_PaymentMethods_TrolleyPage')) == true
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Icon_Visa_TrolleyPage')) == true
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Icon_Mastercard_TrolleyPage')) == true
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Icon_Paypal_TrolleyPage')) == true
-	 }
-	 @Keyword
-	 def CheckContinueButtonEnabledAtTrolleyPage()
-	 {
-		 WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'))
-		 WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'), GlobalVariable.Quantity_trolletyPage)
-		 WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_IncreaseQty_TrolleyPage'))
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_disabled_TrolleyPage')) == true
-		 WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'))
-		 WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'), GlobalVariable.MiniCartQty)
-		 WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_IncreaseQty_TrolleyPage'))
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage')) == true
-	 }
-}
+	@Keyword
+	def AddProductInTrolleyPage() {
+		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), GlobalVariable.SKUForOutOfStockOnline)
+		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Add_Search'))
+		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
+		WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'))
+		WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'), GlobalVariable.MiniCartQty)
+		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_IncreaseQty_Minicart'))
+		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_GoToTRolley_MiniCart'))
+	}
+	@Keyword
+	def AddProductInTrolleyWithInStock() {
+		WebUI.waitForElementPresent(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), 6)
+		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'))
+		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), GlobalVariable.SKUInStock)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Add_Search'), 8)
+		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Add_Search'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'), 5)
+		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
+		WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'))
+		WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_minicart'), GlobalVariable.MiniCartQty)
+		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_IncreaseQty_Minicart'))
+		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_GoToTRolley_MiniCart'))
+	}
+	@Keyword
+	def CheckRedirectiontoPDPfromTrolleyPage() {
+		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Link_productTitle_trolleyPage'))
+		// assertion pending currently page redirecting to 404
+	}
+	@Keyword
+	def CheckStatictextforEmptyTrolleyAtTrolleyPage() {
+		assert WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_EmptyTrolley_TrolleyPage'), 3) == true
+	}
+	@Keyword
+	def CheckAddThisUnderTextAtTrolleyPage() {
+		assert WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_AddThisUnder_TrolleyPage'), 2) == true
+	}
+	@Keyword
+	def CheckDeliveryAndPaymentMethodAtTrolleyPage() {
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_Delivered_TrolleyPage')) == true
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_PaymentMethods_TrolleyPage')) == true
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Icon_Visa_TrolleyPage')) == true
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Icon_Mastercard_TrolleyPage')) == true
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Icon_Paypal_TrolleyPage')) == true
+	}
+	@Keyword
+	def CheckContinueButtonDisabledAtTrolleyPage() {
+		WebUI.waitForElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'), 4)
+		WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'), 5)
+		WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'), GlobalVariable.Quantity_trolletyPage)
+		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_IncreaseQty_TrolleyPage'))
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_disabled_TrolleyPage')) == true
+		/*WebUI.clearText(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'))
+		WebUI.sendKeys(findTestObject('Object Repository/ViewTrolleyPage/Textbox_Quantity_TrolletPage'), GlobalVariable.MiniCartQty)
+		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_IncreaseQty_TrolleyPage'))
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage')) == true*/
+	}
+	@Keyword
+	def DeleteProductInCartIfExistForLoggedUser()
+	{
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'), 12)
+		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
+		if(WebUI.verifyElementVisible(findTestObject('Object Repository/MiniTrolley/Button_deleteFromMiniTrolley'), FailureHandling.OPTIONAL))
+		{
+			WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_deleteFromMiniTrolley'))
+			WebUI.click(findTestObject('Object Repository/My_Favourites/Button_remove_popup'))
+			WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_cross_minicart'))
+		}
+		else
+		{
+		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_cross_minicart'))
+			}
+	}
+		
+	}
+	
+

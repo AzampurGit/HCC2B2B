@@ -52,27 +52,25 @@ public class DeliveryOptionPage {
 		assert WebUI.verifyElementPresent(findTestObject('Object Repository/DeliveryOption_Page/Message_SelectStore_DeliveryOPtions'), 3) == true
 	}
 	@Keyword
-	def RedirectToProductReviewIfAddedProductsInStock()
+	def RedirectToProductReviewIfAddedProductsOutofStock() 
 	{
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
-		if(WebUI.verifyElementPresent(findTestObject('Object Repository/DeliveryOption_Page/ValidationMessage_OnlineDelivery'), 2,FailureHandling.OPTIONAL))
-		{
+		if(WebUI.verifyElementPresent(findTestObject('Object Repository/DeliveryOption_Page/ValidationMessage_OnlineDelivery'), 3,FailureHandling.OPTIONAL)) {
+			WebUI.verifyElementPresent(findTestObject('Object Repository/DeliveryOption_Page/Link_ViewDetails_DeliveryOPtions'), 3)
 			WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_ViewDetails_DeliveryOPtions'))
 			assert WebUI.verifyElementPresent(findTestObject('Object Repository/DeliveryOption_Page/Text_outofStock_productReview'),2) == true
 			assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_productReview')) == true
-		}
-		else
-		{
-			WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
-			assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_Checkout')) == true
-		}}
-		@Keyword
-		def ChecKClickNCollectValidationAndRedirectionToReviewPage()
-		{
-			WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_SelectStore_DeliveryOPtions'))
-			WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_SelectStore_DeliveryOptions'))
 			
 		}
-	
+		else {
+			WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
+			assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_Checkout')) == true
+		}
+	}
+	@Keyword
+	def ChecKClickNCollectValidationAndRedirectionToReviewPage() {
+		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_SelectStore_DeliveryOPtions'))
+		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_SelectStore_DeliveryOptions'))
+	}
 }

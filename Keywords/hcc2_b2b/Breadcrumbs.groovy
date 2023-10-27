@@ -23,10 +23,10 @@ import internal.GlobalVariable
 public class Breadcrumbs {
 	@Keyword
 	def CheckBreadcrumbsAtEveryPage() {
-		WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegMenu_Summer'))
-		WebUI.click(findTestObject('Object Repository/Breadcrumbs/MegaMenu_TraditionalSweets'))
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_pickNSweets')) == true
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_Retrosweets')) ==  true
+		WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegMenu_Chrirstmas'))
+		WebUI.click(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Chirtsmas_Breadcrumbs'))
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_active')) == true
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Christmas_mainbreadcrumbs')) ==  true
 		WebUI.mouseOver(findTestObject('Object Repository/MegaMenuDesktop/MegaMenu_PicknMix'))
 		WebUI.click(findTestObject('Object Repository/MegaMenuDesktop/Image_Subcategory_PickNmix'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_pickNSweets')) == true
@@ -36,7 +36,7 @@ public class Breadcrumbs {
 	}
 	@Keyword
 	def CheckBreadcrumbForCategoryAndSubCategory() {
-		WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegMenu_Summer'))
+		WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegMenu_Chrirstmas'))
 		WebUI.click(findTestObject('Object Repository/Breadcrumbs/MegaMenu_TraditionalSweets'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_pickNSweets')) == true
 		WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Category'))
@@ -48,8 +48,7 @@ public class Breadcrumbs {
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_subcatgory_seasons')) == true
 	}
 	@Keyword
-	def CheckBreadcrumbsAtPDPAndPLP()
-	{
+	def CheckBreadcrumbsAtPDPAndPLP() {
 		WebUI.click(findTestObject('Object Repository/Breadcrumbs/FirstProduct_HomePage'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_PDP')) == true
 		WebUI.mouseOver(findTestObject('Object Repository/MegaMenuDesktop/MegaMenu_PicknMix'))
@@ -58,16 +57,15 @@ public class Breadcrumbs {
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/CMSPages_FooterLinks/Footer_WholeSaleSweets')) == true
 	}
 	@Keyword
-	def CheckHomeBredcrumbs()
-	{
+	def CheckHomeBredcrumbs() {
 		WebUI.click(findTestObject('Object Repository/Breadcrumbs/FirstProduct_HomePage'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_PDP')) == true
-		WebUI.click(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_Home')) 
-			}
-	 @Keyword
-	 def CheckcliakbleOfLatestBreadcrumbs()
-	 {
-		 WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Brands'))
-		 WebUI.click(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Subcategory_Aero'))
-		 WebUI.verifyElementClickable(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_active')) ==  true
-}}
+		WebUI.click(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_Home'))
+	}
+	@Keyword
+	def CheckcliakbleOfLatestBreadcrumbs() {
+		WebUI.mouseOver(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Brands'))
+		WebUI.click(findTestObject('Object Repository/Breadcrumbs/MegaMenu_Subcategory_Aero'))
+		WebUI.verifyElementClickable(findTestObject('Object Repository/Breadcrumbs/Breadcrumbs_active')) ==  true
+	}
+}

@@ -22,19 +22,18 @@ import internal.GlobalVariable
 
 public class ClickNCollect_DeliveryOPtions {
 	@Keyword
-	def CheckClickNCollectStorePopup()
-	{
+	def CheckClickNCollectStorePopup() {
 		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOption_Page/Textbox_SearchLocation_deliveryOption'), GlobalVariable.CityName)
 		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOption_Page/Textbox_SearchLocation_deliveryOption'),Keys.chord(Keys.ENTER))
-	    assert WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryOption_Page/Text_Searchedlocation_deliveryoption')) == true
-		}
-		@Keyword
-		def RedirectionToStoreInformationPage()
-		{
-			WebUI.sendKeys(findTestObject('Object Repository/DeliveryOption_Page/Textbox_SearchLocation_deliveryOption'), GlobalVariable.CityName)
-			WebUI.sendKeys(findTestObject('Object Repository/DeliveryOption_Page/Textbox_SearchLocation_deliveryOption'),Keys.chord(Keys.ENTER))
-			WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_StoreInformation_DeliveryOptions'))
-			WebUI.switchToWindowUrl('https://hcc2-fe-qc.hancocks.co.uk/cash-carries/Hull', FailureHandling.STOP_ON_FAILURE)
-			assert WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryOption_Page/Text_StoreDetails_Delivery')) ==  true
-		}
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryOption_Page/Text_Searchedlocation_deliveryoption')) == true
+	}
+	@Keyword
+	def RedirectionToStoreInformationPage() {
+		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOption_Page/Textbox_SearchLocation_deliveryOption'), GlobalVariable.CityName)
+		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOption_Page/Textbox_SearchLocation_deliveryOption'),Keys.chord(Keys.ENTER))
+		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_StoreInformation_DeliveryOptions'))
+		WebUI.switchToWindowIndex(1)
+		//WebUI.switchToWindowUrl('https://hcc2-fe-qc.hancocks.co.uk/cash-carries/Hull', FailureHandling.STOP_ON_FAILURE)
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryOption_Page/Text_StoreDetails_Delivery')) ==  true
+	}
 }

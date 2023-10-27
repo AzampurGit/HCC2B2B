@@ -1,4 +1,4 @@
-package common
+package hcc2_b2b
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,15 +20,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class RedirectToHomepage {
-
-	@Keyword
-
-	def RedirectToHomePage() {
-		WebUI.openBrowser('')
-
-		WebUI.maximizeWindow()
-
-		WebUI.navigateToUrl(GlobalVariable.StagingUrl)
-	}
+public class CheckOut_OnlineDeliveryAndCCcombine {
 }

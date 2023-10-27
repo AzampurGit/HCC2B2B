@@ -20,15 +20,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class RedirectToHomepage {
-
+public class AdminLogin {
 	@Keyword
-
-	def RedirectToHomePage() {
+	def LoginWithAdminUser(String Adminusername, String Adminpassword)
+	{
 		WebUI.openBrowser('')
-
+		
 		WebUI.maximizeWindow()
-
-		WebUI.navigateToUrl(GlobalVariable.StagingUrl)
+		
+		WebUI.navigateToUrl(GlobalVariable.AdminUrl)
+		
+		WebUI.sendKeys(findTestObject('Object Repository/Admin_Repos/Textbox_Username_Admin'), Adminusername)
+		WebUI.sendKeys(findTestObject('Object Repository/Admin_Repos/Textbox_password'),Adminpassword )
+		WebUI.click(findTestObject('Object Repository/Admin_Repos/Button_SignIN'))
 	}
+	
+	
 }

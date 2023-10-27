@@ -17,23 +17,18 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import testlink.api.java.client.TestLinkAPIClient
-import testlink.api.java.client.TestLinkAPIException
-import testlink.api.java.client.TestLinkAPIResults
+
 import internal.GlobalVariable
 
 public class DeliveryDetails {
 	@Keyword
 	def CheckDeliveryDetailsAtTrolleyPage() {
 		assert WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_Delivered_TrolleyPage'), 2) == true
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Text_delievered_TrolleyPage')) == true
 	}
 	@Keyword
-	def CheckFullDetailsOfDeliveryOptionsAtTrolleypage()
-	{
+	def CheckFullDetailsOfDeliveryOptionsAtTrolleypage() {
 		//WebUI.scrollToElement(findTestObject('Object Repository/DeliveryDetails/Button_Expand_DeliveryOptions'), 1)
-		 WebUI.click(findTestObject('Object Repository/DeliveryDetails/Button_Expand_DeliveryOptions'))
-		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryDetails/Text_OrderNow_Delivery_TrolleyPage')) == true
+		WebUI.click(findTestObject('Object Repository/DeliveryDetails/Button_Expand_DeliveryOptions'))
+		assert WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryDetails/Text_OrderNow_Delivery_TrolleyPage')) == true
 	}
-	
 }

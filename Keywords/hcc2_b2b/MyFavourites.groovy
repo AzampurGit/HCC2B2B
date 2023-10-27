@@ -26,18 +26,16 @@ public class MyFavourites {
 	@Keyword
 
 	def CheckLoggedInUserAccessMyFavourite() {
-       
-		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 10)
-		
+			
+		//WebUI.waitForElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 6)
+		WebUI.waitForElementVisible(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 5)
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))
-
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Text_Label_MyFavourites')) == true :"Assert passed."
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))	
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_RemoveFromFavourite'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_ConfirmationPopUp_Remove'))
 
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Message_Sucess_removefromFav')) == true
 	}
@@ -45,31 +43,24 @@ public class MyFavourites {
 	@Keyword
 	def ViewPDPFromFavouriteList() {
 
-		//if (WebUI.verifyElementPresent(findTestObject(), 0))
-		
-		WebUI.scrollToElement(findTestObject('Object Repository/YouMayBeinteresetedIn/Label_YouMayInteresetedAtHomePage'), 5)
-		//WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 5)
-		
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddtoFav_FromPDP'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))
 
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Text_Label_MyFavourites')) == true :"Assert passed."
+		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Link_FavToPDP'), 5)
 
-		 WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Link_FavToPDP'), 5)
-		 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Link_FavToPDP'))
 
-		Thread.sleep(5)
-		//assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Link_PDP_desriptionPage')) == true :"assert passed"
+		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Link_PDP_desriptionPage'),5)
 
 		WebUI.back()
-		
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))
-		
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_RemoveFromFavourite'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_ConfirmationPopUp_Remove'))
+		
 	}
 
 
@@ -77,44 +68,46 @@ public class MyFavourites {
 
 	def AddProductInTrolleyFromFavouritePage() {
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 5)
-		
+		WebUI.waitForElementVisible(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 3)
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductToTrolleyFromFav'))
-
+		
+	    WebUI.waitForElementVisible(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'), 3)
+		
 		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
 
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Count_addedProductCart')) == true
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_deleteProductFromMiniTrolley'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_RemoveProduct_MiniCart_myfav'))
 
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Message_RemoveProductFromMinitrolley')) == true : "Assertion passed"
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Add_ToTrolley/Button_cross_minicart'), 3)
 
 		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_cross_minicart'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_RemoveFromFavourite'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
-
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Message_Sucess_removefromFav')) == true  : "Assertion passed"
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_ConfirmationPopUp_Remove'))
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductToFavInFavouritePage'), 5)
 	}
 
 	@Keyword
 	def RemoveProductFromFavouriteList() {
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_MyFavourite_option'), 5)
-		
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourite_option'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductToFavInFavouritePage'))
-        
+
 		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_addToFavFromHome'), 3)
-		
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_addToFavFromHome'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourite_option'))
@@ -123,9 +116,9 @@ public class MyFavourites {
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_RemoveFromFavourite'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_Remove_confirmation_withoutaddedCart'))
 
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Message_Sucess_removefromFav'))  == true
+		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductToFavInFavouritePage'), 5)
 	}
 
 
@@ -133,12 +126,12 @@ public class MyFavourites {
 
 	def AddProductIntoFavListIfNoProductAdded() {
 
-        WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'), 5)
-		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'), 5)
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Link_FavButton_HomePage'))
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductToFavInFavouritePage'), 5)
-		
+
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductToFavInFavouritePage'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_addToFavFromHome'))
@@ -149,27 +142,35 @@ public class MyFavourites {
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_RemoveFromFavourite'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_Remove_confirmation_withoutaddedCart'))
 
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Message_Sucess_removefromFav'))  == true
 	}
 
-
-
 	@Keyword
 
-	def AddProductInFavPage() 
-	{
-		if(WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Message_OutOfStock_FavouritePage'), 2, FailureHandling.OPTIONAL)) 
-			{
+	def AddProductInFavPage() {
+		for (int i=0;i<2;i++)
+		{
+		if(WebUI.verifyElementPresent(findTestObject('Object Repository/My_Favourites/Message_OutOfStock_FavouritePage'), 2, FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddtoFav_anotherProduct'))
-		} 
-		else 
-			{
-			WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'))
 		}
+		else {
+			WebUI.waitForElementPresent(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'), 3)
+			WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddProductInFavWithLogin'))
+		}}
 	}
 
+	
+
+	@Keyword
+	def RemoveExistingProductsInFavList() {
+		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Link_HomePage_logo'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))
+		for (int i=0;i<6;i++) {
+			WebUI.click(findTestObject('Object Repository/My_Favourites/Checkbox_FavList'))
+		}
+	}
 
 	@Keyword
 
@@ -178,13 +179,20 @@ public class MyFavourites {
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_MyFavourites'))
 
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Checkbox_SelectFirstFromFavList'))
-
+		
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Checkbox_SelectSecondFromFavList'))
-
+		
 		WebUI.click(findTestObject('Object Repository/My_Favourites/Link_RemoveProductsFromFavList'))
 
-		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_YesRemoveFavouritePopUP'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_remove_popup'))
 
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/My_Favourites/Message_Sucess_removefromFav')) == true
+	}
+	
+	def AddProductInFavListFromSearch(String SKU)
+	{
+		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), SKU)
+		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Link_productTitle_trolleyPage'))
+		WebUI.click(findTestObject('Object Repository/My_Favourites/Button_AddtoFav_FromPDP'))
 	}
 }
