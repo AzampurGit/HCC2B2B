@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-550(Verify the saved address will reflect in the billing address section and address book)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bae6b40-6c51-45f6-9b3c-e63cdb19314e</testCaseGuid>
+</TestCaseEntity>

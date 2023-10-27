@@ -6,11 +6,11 @@
    <elementGuidId>bb46cfbf-01a3-45c7-8662-f8373c88deef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//span[@class='product-favourite '])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@class='product-favourite '])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

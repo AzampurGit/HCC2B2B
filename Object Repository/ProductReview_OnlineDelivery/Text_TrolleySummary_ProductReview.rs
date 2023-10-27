@@ -6,12 +6,11 @@
    <elementGuidId>bc637d5b-1ffd-4e8f-bd88-e3a2addb0c81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),' Trolly Summary')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'CheckoutFlow_trolley-summary')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

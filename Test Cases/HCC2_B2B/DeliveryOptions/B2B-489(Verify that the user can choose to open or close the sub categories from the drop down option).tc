@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-489(Verify that the user can choose to open or close the sub categories from the drop down option)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab70548c-7cdb-4c85-85e2-53b858dba560</testCaseGuid>
+</TestCaseEntity>

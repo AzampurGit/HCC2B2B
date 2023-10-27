@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-659(Verify that this Card no 4242424242424242 Visa should be valid for payment)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c258bcd7-b846-44c2-a677-9c2dbaf5112c</testCaseGuid>
+</TestCaseEntity>

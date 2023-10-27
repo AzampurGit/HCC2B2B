@@ -6,12 +6,11 @@
    <elementGuidId>6a8b9db3-86c9-4e81-9713-3c3b56396af1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[contains(text(),'Pack Size: ')])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='d-flex flex-md-column'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

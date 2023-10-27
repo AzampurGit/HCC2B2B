@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-490(Verify that the subcategories has title, expected delivery date and time and delivery charges)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2d0acb5-5a27-4643-bcc3-ea227d8998fe</testCaseGuid>
+</TestCaseEntity>

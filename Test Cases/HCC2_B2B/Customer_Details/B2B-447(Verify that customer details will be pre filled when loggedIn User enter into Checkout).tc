@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-447(Verify that customer details will be pre filled when loggedIn User enter into Checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f862d211-8d09-48cd-b141-65a76b7feff1</testCaseGuid>
+</TestCaseEntity>

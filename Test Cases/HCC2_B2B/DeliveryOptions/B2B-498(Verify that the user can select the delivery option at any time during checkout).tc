@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-498(Verify that the user can select the delivery option at any time during checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f876c006-ad07-494b-a1a6-349ffa2128a8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-633(Verify user view order details like order id,date,pick up store etc)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62bc2e30-f9ad-4188-8bb9-3d5d367a6218</testCaseGuid>
+</TestCaseEntity>

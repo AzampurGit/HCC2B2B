@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[contains(@id,'RadioDefault1')]</value>
+         <value>//input[contains(@id,'RadioDefault2')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

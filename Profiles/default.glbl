@@ -434,4 +434,9 @@
       <initValue>'On Hold'</initValue>
       <name>OnHoldStatus</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin1'</initValue>
+      <name>ShipmentusernameFilter</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

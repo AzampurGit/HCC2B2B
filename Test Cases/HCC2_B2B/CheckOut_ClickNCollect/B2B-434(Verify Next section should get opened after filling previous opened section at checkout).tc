@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-434(Verify Next section should get opened after filling previous opened section at checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79b67268-bcf2-422a-a929-47223a21e171</testCaseGuid>
+</TestCaseEntity>

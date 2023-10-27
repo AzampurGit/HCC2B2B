@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-466(Verify that the user can view all the added address by clicking on the dropdown option)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ca611c8-889a-4514-87f1-3544dd316b6b</testCaseGuid>
+</TestCaseEntity>

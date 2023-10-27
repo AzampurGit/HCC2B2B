@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-577(Verify user can select onAccount option under payment section at checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c3d25fb-aa43-4c18-b332-c830b9988e14</testCaseGuid>
+</TestCaseEntity>

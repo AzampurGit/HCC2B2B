@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-637(Verify Order total amount at the end of the product list.)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4f8ed45-0671-43c5-ba0e-046bf9d92996</testCaseGuid>
+</TestCaseEntity>

@@ -40,6 +40,14 @@ public class Payment_Methods {
 		WebUI.click(findTestObject('Object Repository/Admin_Repos/Button_SaveCustomer_Admin'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Admin_Repos/Message_Sucess_Customer_Admin'), 5)
 	}
+	@Keyword
+	def DisableOnAccounAndBACSForRegisteredUser() {
+		WebUI.click(findTestObject('Object Repository/Admin_Repos/Button_bacs_On_Admin'))
+		WebUI.click(findTestObject('Object Repository/Admin_Repos/button_onaccount_Admin'))
+		WebUI.click(findTestObject('Object Repository/Admin_Repos/Button_SaveCustomer_Admin'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Admin_Repos/Message_Sucess_Customer_Admin'), 5)
+	}
+	
 
 	@Keyword
 	def CheckBACSAndOnAccountOptionsUnderPaymentSectionAtcheckout() {
@@ -81,6 +89,26 @@ public class Payment_Methods {
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/DeliveryOptions/Button_Select_DeliveryOptions'),2)
 		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOptions/Textbox_DeliveryInstructions'), GlobalVariable.Lax50Char_DeliveryInstruction)
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'))
+	}
+	@Keyword
+	def CheckProductDetailsAtOrderConfirmationPage()
+	{
+		WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Image_AddedProduct_TrolleyPage'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/ProductRewview_ClickNCollect/Text_ProductTitle_productReview'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/OnAccount_payment/ProductCode_ConfirmationPage'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Price_ConfirmationPage'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Quanity_ConfirmationPage'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Subtotal_ConfirmationPage'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Vat_ConfirmationPage'))
+	}
+	
+	@Keyword
+	def VerifyOrderDetailsForClickNCollectAtConfirmationPage()
+	{
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Summary_OrderId_ConfirmationPage'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Summary_OrderDate_Confirmation'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Summary_pickUpStore_Confimrtaion'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Order_ConfirmationPage/Summary_Expectedpickup'))
 	}
 }
 

@@ -6,12 +6,11 @@
    <elementGuidId>523e5acc-ac92-4220-b370-3b56ad930207</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[contains(text(),'Trolley')])[3]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(@class,'CheckoutFlow_active')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

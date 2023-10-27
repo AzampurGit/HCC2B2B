@@ -6,12 +6,12 @@
    <elementGuidId>fe6a1d03-daf9-4a13-9fc7-dc12a107dcc2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Products removed succesfully from the wishlist.')]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'Products removed succesfully from the wishlist.')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-410(Verify the list of products along with details, Delivery method details below trolley summary)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b564f5c6-d975-42f7-bd29-768611aae0f8</testCaseGuid>
+</TestCaseEntity>

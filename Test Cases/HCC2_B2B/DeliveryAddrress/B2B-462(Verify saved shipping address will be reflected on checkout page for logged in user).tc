@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-462(Verify saved shipping address will be reflected on checkout page for logged in user)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fca605c-e153-4c1f-8c47-b36b531ad3cf</testCaseGuid>
+</TestCaseEntity>

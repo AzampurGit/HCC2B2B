@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-430(Verify in order to proceed to next trolley step user has to fulfill all validations for ClickNCollet)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae56d78f-94e6-4907-b852-43c1770519e2</testCaseGuid>
+</TestCaseEntity>

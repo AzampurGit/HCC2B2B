@@ -6,12 +6,11 @@
    <elementGuidId>0ee47ac4-c336-478f-89c2-2295a92da23f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'stock-status')])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='stock-status mb-2'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

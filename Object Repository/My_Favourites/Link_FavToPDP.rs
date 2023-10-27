@@ -6,12 +6,11 @@
    <elementGuidId>81855359-d9fe-413c-860e-20e41116e171</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'Favourites_product-img')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='Favourites_product-img__H_sot'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

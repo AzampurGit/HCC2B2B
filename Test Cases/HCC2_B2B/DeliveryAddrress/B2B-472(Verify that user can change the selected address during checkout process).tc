@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-472(Verify that user can change the selected address during checkout process)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c187b862-6f71-4490-bf05-f669a6756b4b</testCaseGuid>
+</TestCaseEntity>

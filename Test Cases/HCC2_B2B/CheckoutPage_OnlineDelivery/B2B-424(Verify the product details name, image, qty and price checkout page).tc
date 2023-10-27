@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-424(Verify the product details name, image, qty and price checkout page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1e3ad22-eb7e-4a0d-8a31-79f975efdad0</testCaseGuid>
+</TestCaseEntity>

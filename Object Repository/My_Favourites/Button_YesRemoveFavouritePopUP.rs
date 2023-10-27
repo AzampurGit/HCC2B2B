@@ -6,14 +6,11 @@
    <elementGuidId>c014d710-7711-4947-9618-a302dc9456b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'btn btn-primary')])[6]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='primary-btn btn btn-primary']
-
-</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

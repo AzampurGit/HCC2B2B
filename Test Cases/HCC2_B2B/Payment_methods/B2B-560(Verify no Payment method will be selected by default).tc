@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-560(Verify no Payment method will be selected by default)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5c46f03-a606-464e-9cd0-910e29d11363</testCaseGuid>
+</TestCaseEntity>

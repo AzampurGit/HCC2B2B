@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-348(Verify the positioning of alertmessage and trolley summary will be fixed)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dffdcfcf-2fa8-4755-b4ad-412392a58194</testCaseGuid>
+</TestCaseEntity>

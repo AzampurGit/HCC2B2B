@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-417(Verify that the user can view one section at a time At Checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>423b031c-253a-41c3-9a96-f9927e4be55b</testCaseGuid>
+</TestCaseEntity>

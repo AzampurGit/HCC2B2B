@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-69(Verify user redirected to PDP and can view details on PDP )</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2064dbf-bf8f-41d1-a2cc-fe89f9dd88c3</testCaseGuid>
+</TestCaseEntity>

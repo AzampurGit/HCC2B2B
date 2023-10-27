@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-427(Verify that the payment modes can be viewable)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf812f75-a8e5-48a0-bd58-59a25438e841</testCaseGuid>
+</TestCaseEntity>

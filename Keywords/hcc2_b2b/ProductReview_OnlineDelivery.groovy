@@ -67,7 +67,7 @@ public class ProductReview_OnlineDelivery {
 	}
 	@Keyword
 	def CheckApplyChnagesButtonFunctionality() {
-		WebUI.scrollToPosition(40, 50)
+		WebUI.scrollToElement(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_TrolleySummary_ProductReview'), 2)
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Radio_NotifyMeback_ProductReview'))
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_ApplyChanges_productreview'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_EmptyTrolley_TrolleyPage')) == true
@@ -81,7 +81,7 @@ public class ProductReview_OnlineDelivery {
 	}
 	@Keyword
 	def CheckApplyChangesForRadioRemoveOption() {
-		WebUI.scrollToPosition(40, 50)
+		
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Radio_Remove_productReview'))
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_ApplyChanges_productreview'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_EmptyTrolley_TrolleyPage')) == true
@@ -100,7 +100,7 @@ public class ProductReview_OnlineDelivery {
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_ValidationMessage_OutOfStock')) == true
 		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_ViewDetails_DeliveryOPtions'))
-		WebUI.scrollToPosition(40, 50)
+		WebUI.scrollToElement(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_TrolleySummary_ProductReview'), 2)
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Radio_NotifyMeback_ProductReview'))
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_ApplyChanges_productreview'))
 		assert WebUI.verifyElementPresent(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_ProceedtoCheckOut_productReview'), 5) ==  true

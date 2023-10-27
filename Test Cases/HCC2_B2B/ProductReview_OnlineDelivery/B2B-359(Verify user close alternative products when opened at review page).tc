@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-359(Verify user close alternative products when opened at review page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>644d73ee-0052-45b5-9299-559dadcec189</testCaseGuid>
+</TestCaseEntity>

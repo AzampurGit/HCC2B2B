@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-353(Verify on choosing cancel, the pop up will disappear)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a053df2d-da09-4784-be49-593295af0299</testCaseGuid>
+</TestCaseEntity>

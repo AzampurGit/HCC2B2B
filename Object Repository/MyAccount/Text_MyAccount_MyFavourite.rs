@@ -6,12 +6,11 @@
    <elementGuidId>872f56be-830a-4cd6-aee0-999a0ea6296c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[@href='/wishlist'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@class='false  d-flex justify-content-between align-items-center list-group-item'])</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

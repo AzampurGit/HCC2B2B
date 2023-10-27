@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-830(Verify the two payment methods On account and BACs for logged in userss)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b55f6c3d-0d44-4a79-b0b1-ed55c8aa44df</testCaseGuid>
+</TestCaseEntity>

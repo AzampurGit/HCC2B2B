@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-592(Verify number of ordered products for online delivery along with the list of products)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df49e044-8f8c-42ea-ba1d-73c411417db3</testCaseGuid>
+</TestCaseEntity>

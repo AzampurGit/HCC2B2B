@@ -6,12 +6,11 @@
    <elementGuidId>e17002dc-95d4-4d1f-92e4-28d7bb4303cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[@href='/newsletter/manage'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@class='d-flex justify-content-between align-items-center list-group-item'])[4]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

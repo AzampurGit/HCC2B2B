@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-407(Verify once all validations met alert message changes into confirmation to proceedTOcheckout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfb6d898-2687-45db-b351-7767d478a198</testCaseGuid>
+</TestCaseEntity>

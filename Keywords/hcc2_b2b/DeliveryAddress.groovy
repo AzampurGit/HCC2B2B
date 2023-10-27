@@ -45,8 +45,8 @@ public class DeliveryAddress {
 
 	@Keyword
 	def CheckMandatoryValidationsForDeliveryAddress() {
-		WebUI.scrollToPosition(250, 890)
-		//WebUI.scrollToElement(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'), 2)
+		//WebUI.scrollToPosition(250, 890)
+		WebUI.scrollToElement(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Image_Mastercard_paymentmethod'), 2)
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryAddress/Message_validation_Mandatoy_CustoomerDetails'))
 	}
@@ -85,8 +85,7 @@ public class DeliveryAddress {
 
 	@Keyword
 	def AddDeliveryAddressAtCheckout() {
-		WebUI.scrollToElement(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Change_CustomerDetails'), 2)
-		WebUI.scrollToPosition(50, 100)
+		WebUI.scrollToElement(findTestObject('Object Repository/TrolleySummary/Text_ApplyDiscountCoupon'), 2)
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Change_CustomerDetails'))
 		WebUI.click(findTestObject('Object Repository/DeliveryAddress/Link_AddNewAddress_CustomerDetails'))
 		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_FirstName'), GlobalVariable.FirstName)
@@ -101,7 +100,7 @@ public class DeliveryAddress {
 	}
 	@Keyword
 	def CheckAllAddressUnderCustomerDetailsAtCheckoutbyclickingDropdown() {
-		WebUI.scrollToElement(findTestObject('Object Repository/DeliveryAddress/Dropdown_ShowAddress'), 0)
+		WebUI.scrollToElement(findTestObject('Object Repository/Customer_Details/Accordion_CustomerDetails'), 0)
 		WebUI.click(findTestObject('Object Repository/DeliveryAddress/Dropdown_ShowAddress'))
 		WebUI.verifyElementVisible(findTestObject('Object Repository/DeliveryAddress/Dropdown_ShowAddress'))
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Link_HomePage_logo'))

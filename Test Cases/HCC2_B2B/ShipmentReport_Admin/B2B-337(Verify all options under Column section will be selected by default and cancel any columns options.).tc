@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-337(Verify all options under Column section will be selected by default and cancel any columns options.)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a038630c-023b-4dc0-90d2-f78a9fadbd43</testCaseGuid>
+</TestCaseEntity>

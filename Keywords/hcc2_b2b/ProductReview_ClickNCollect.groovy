@@ -43,7 +43,7 @@ public class ProductReview_ClickNCollect {
 	def CheckTrolleySummaryAlongWithOrderTotal() {
 		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_SelectStore_DeliveryOptions'))
 		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_Continue_TrolleyPage'))
-		 WebUI.verifyElementPresent(findTestObject('Object Repository/TrolleySummary/Text_TrolleySummary_Checkout'),3)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TrolleySummary/Text_TrolleySummary_Checkout'),3)
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Text_OrderTotal_Checkout')) == true
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/TrolleySummary/Text_Vat_Percentage_TrolleySummary')) == true
 	}
@@ -108,7 +108,7 @@ public class ProductReview_ClickNCollect {
 	}
 	@Keyword
 	def CheckConfirmationMsgWithProceedToChekoutOPtion() {
-	
+
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/radio_ClickNCollect'))
@@ -119,28 +119,27 @@ public class ProductReview_ClickNCollect {
 		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/Button_Remove_PopUP_TrolleySection'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_ProceedtoCheckOut_productReview'),3)
 		//WebUI.clearText(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'))
-		
-			/*WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_Add_FirstProduct'))
-		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_Add_SecondProduct'))
-		WebUI.clearText(findTestObject('Object Repository/ProductRewview_ClickNCollect/Textbox_Clear_SecondProduct'))
-		WebUI.sendKeys(findTestObject('Object Repository/ProductRewview_ClickNCollect/Textbox_Clear_SecondProduct'), GlobalVariable.MiniCartQty)
-		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/Button_IncreaseQty_second'))
-		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
-		WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_GoToTRolley_MiniCart'))
-		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
-		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
-		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/radio_ClickNCollect'))
-		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_SelectStore_DeliveryOPtions'))
-		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_SelectStore_DeliveryOptions'))
-		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/Link_viewDetails_ClickNCollect'))
-		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Link_RemoveAll'))
-		WebUI.click(findTestObject('Object Repository/ViewAddressBook/Button_Yes_RemovePopUp'))
-		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_ProceedtoCheckOut_productReview'))*/
+
+		/*WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_Add_FirstProduct'))
+		 WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_Add_SecondProduct'))
+		 WebUI.clearText(findTestObject('Object Repository/ProductRewview_ClickNCollect/Textbox_Clear_SecondProduct'))
+		 WebUI.sendKeys(findTestObject('Object Repository/ProductRewview_ClickNCollect/Textbox_Clear_SecondProduct'), GlobalVariable.MiniCartQty)
+		 WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/Button_IncreaseQty_second'))
+		 WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
+		 WebUI.click(findTestObject('Object Repository/MiniTrolley/Button_GoToTRolley_MiniCart'))
+		 WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
+		 WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
+		 WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/radio_ClickNCollect'))
+		 WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_SelectStore_DeliveryOPtions'))
+		 WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_SelectStore_DeliveryOptions'))
+		 WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/Link_viewDetails_ClickNCollect'))
+		 WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Link_RemoveAll'))
+		 WebUI.click(findTestObject('Object Repository/ViewAddressBook/Button_Yes_RemovePopUp'))
+		 assert WebUI.verifyElementVisible(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_ProceedtoCheckOut_productReview'))*/
 	}
-	
+
 	@Keyword
-	def ClearSearchTextboxAtHomePage()
-	{
+	def ClearSearchTextboxAtHomePage() {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'), 4)
 		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'))
 		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_Search_homepage'),Keys.chord(Keys.CONTROL,'a'))
@@ -162,14 +161,13 @@ public class ProductReview_ClickNCollect {
 		}
 	}
 	@Keyword
-	def CheckDisabledContinueButtonWhenConditionMet()
-{
+	def CheckDisabledContinueButtonWhenConditionMet() {
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 		WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/radio_ClickNCollect'))
 		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Link_SelectStore_DeliveryOPtions'))
 		WebUI.click(findTestObject('Object Repository/DeliveryOption_Page/Button_SelectStore_DeliveryOptions'))
-		WebUI.verifyElementPresent(findTestObject('Object Repository/ProductRewview_ClickNCollect/Link_viewDetails_ClickNCollect'), 2,FailureHandling.OPTIONAL) 
+		WebUI.verifyElementPresent(findTestObject('Object Repository/ProductRewview_ClickNCollect/Link_viewDetails_ClickNCollect'), 2,FailureHandling.OPTIONAL)
 		WebUI.click(findTestObject('Object Repository/ProductRewview_ClickNCollect/Link_viewDetails_ClickNCollect'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/ProductReview_OnlineDelivery/Button_Continue_Disabled'))
 	}

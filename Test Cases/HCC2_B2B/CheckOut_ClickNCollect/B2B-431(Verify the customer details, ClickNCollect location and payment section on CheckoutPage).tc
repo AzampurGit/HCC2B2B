@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-431(Verify the customer details, ClickNCollect location and payment section on CheckoutPage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b1ddf1f-5c40-46de-9a75-55196d9cf4b5</testCaseGuid>
+</TestCaseEntity>

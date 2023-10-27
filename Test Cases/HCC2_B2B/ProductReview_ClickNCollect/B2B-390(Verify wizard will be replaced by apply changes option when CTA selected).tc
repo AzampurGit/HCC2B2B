@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-390(Verify wizard will be replaced by apply changes option when CTA selected)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e41024f6-ab18-4334-a45c-46fe1fa4904e</testCaseGuid>
+</TestCaseEntity>

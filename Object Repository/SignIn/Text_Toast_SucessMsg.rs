@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='Toastify__toast-body']</value>
+         <value>//div[contains(text(),'Successfully Logged In')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-601(Verify that the product can be searched with productNameORproduct code)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13d67054-b931-486b-8eee-67f7c2d6e8d1</testCaseGuid>
+</TestCaseEntity>

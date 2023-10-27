@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-580(Verify mandatory validations for purchase order field at checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeba9f16-6ba0-44b2-8fd9-6c85092062a6</testCaseGuid>
+</TestCaseEntity>

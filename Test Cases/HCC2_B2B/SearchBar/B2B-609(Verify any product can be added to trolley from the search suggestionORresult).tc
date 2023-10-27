@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-609(Verify any product can be added to trolley from the search suggestionORresult)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f51bd6c1-1884-4679-88c6-87b13de9948d</testCaseGuid>
+</TestCaseEntity>

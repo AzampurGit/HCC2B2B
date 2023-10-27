@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-583(Verify the order done by On Account payment will be ON HOLD in Admin)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baf3d653-b153-4f6b-aba0-78e905337efb</testCaseGuid>
+</TestCaseEntity>

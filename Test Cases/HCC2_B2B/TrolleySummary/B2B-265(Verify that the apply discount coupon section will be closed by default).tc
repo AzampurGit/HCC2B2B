@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-265(Verify that the apply discount coupon section will be closed by default)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21065b1b-6a1f-48a7-8bd6-7a51eb195cfa</testCaseGuid>
+</TestCaseEntity>

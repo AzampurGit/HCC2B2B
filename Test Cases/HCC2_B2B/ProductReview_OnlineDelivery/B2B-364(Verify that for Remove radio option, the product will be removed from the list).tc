@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-364(Verify that for Remove radio option, the product will be removed from the list)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45069a41-b3ee-4d08-846c-c74b3af69ab9</testCaseGuid>
+</TestCaseEntity>

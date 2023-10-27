@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-467(Verify the pop up window if user choose to edit the existing address)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d52a5892-7873-4969-a4db-f4cfa1c2613a</testCaseGuid>
+</TestCaseEntity>

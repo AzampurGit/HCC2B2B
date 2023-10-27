@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-545(Verify user can edit an existing billing address in the pop up window)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4850380-cab9-4d7e-9ce2-0275c05d511c</testCaseGuid>
+</TestCaseEntity>

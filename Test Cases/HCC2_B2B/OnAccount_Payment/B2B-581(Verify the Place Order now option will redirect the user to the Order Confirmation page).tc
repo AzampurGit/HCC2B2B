@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-581(Verify the Place Order now option will redirect the user to the Order Confirmation page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abd3e34c-a5fe-4edd-acea-6e3aae2cf628</testCaseGuid>
+</TestCaseEntity>

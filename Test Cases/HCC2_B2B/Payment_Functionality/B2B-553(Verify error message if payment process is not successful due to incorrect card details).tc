@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-553(Verify error message if payment process is not successful due to incorrect card details)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfe0bf7e-9f5a-443f-941a-583d352c663c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-394(Verify the alert message for the products whose qty can be adjusted)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc18d549-353f-4f7d-8e18-5ffc52e78488</testCaseGuid>
+</TestCaseEntity>

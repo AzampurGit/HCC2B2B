@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-360(Verify user can unselect selected CTA by selecting other radio option)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e09285c0-78dc-4ae7-9748-16e57c112663</testCaseGuid>
+</TestCaseEntity>

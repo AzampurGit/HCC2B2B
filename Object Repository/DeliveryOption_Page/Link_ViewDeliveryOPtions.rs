@@ -6,12 +6,11 @@
    <elementGuidId>9a3f728a-d8c4-4eb4-9750-4a27efc466b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[contains(@class,'btn-link CheckoutFlow')])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(text(),'View delivery options')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

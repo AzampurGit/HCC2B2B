@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-374(Verify validations proceed to next step user has to select the store)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>007a3d59-6689-4547-97d4-7559acd63874</testCaseGuid>
+</TestCaseEntity>

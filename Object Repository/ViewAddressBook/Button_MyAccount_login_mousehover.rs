@@ -6,11 +6,11 @@
    <elementGuidId>7735258b-37fe-4fdd-a755-bfb894db7b8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[@class='right-menu-icon'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='d-flex align-items-center'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

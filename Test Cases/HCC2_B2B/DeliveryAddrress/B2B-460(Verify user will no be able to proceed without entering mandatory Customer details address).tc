@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-460(Verify user will no be able to proceed without entering mandatory Customer details address)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09dde351-d8f2-4baa-ab4d-128b73290de2</testCaseGuid>
+</TestCaseEntity>

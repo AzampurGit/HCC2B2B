@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-610(Verify the view more result option at the end of the Search suggestion list)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ee5bdc0-a633-4690-b460-3315465da29f</testCaseGuid>
+</TestCaseEntity>

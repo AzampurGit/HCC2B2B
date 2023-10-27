@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='primary-btn d-flex justify-content-center align-items-center Favourites_primary-btn__HlDcZ ']</value>
+         <value>//button[contains(@class,'Favourites_primary-btn')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

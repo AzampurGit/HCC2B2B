@@ -6,12 +6,11 @@
    <elementGuidId>f681da64-d046-4fb2-9607-3236892fc91f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(@class,'Favourites')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@class='primary-btn m-auto Favourites_primary-btn__HlDcZ']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

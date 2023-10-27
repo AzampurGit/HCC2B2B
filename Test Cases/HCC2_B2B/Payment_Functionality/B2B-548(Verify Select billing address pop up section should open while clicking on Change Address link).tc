@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-548(Verify Select billing address pop up section should open while clicking on Change Address link)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bdbf3b7-5a72-47d1-9f8e-7e9b821838b8</testCaseGuid>
+</TestCaseEntity>

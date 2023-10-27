@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-397(Verify choosing adjust all, the adjusted product quantity message displayed)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>484a7e6f-a44d-4b7c-9318-24c9d4007dd9</testCaseGuid>
+</TestCaseEntity>

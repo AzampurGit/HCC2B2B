@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-461(Verify that the user can proceed to Next step after entering mandatory fields)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>362dc04d-d080-4045-acda-02ab13815418</testCaseGuid>
+</TestCaseEntity>

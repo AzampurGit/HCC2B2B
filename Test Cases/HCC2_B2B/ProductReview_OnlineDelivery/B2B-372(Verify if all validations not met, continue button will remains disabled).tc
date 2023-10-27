@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-372(Verify if all validations not met, continue button will remains disabled)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28c85416-a84b-42e3-b3a7-82aa23cf47bc</testCaseGuid>
+</TestCaseEntity>

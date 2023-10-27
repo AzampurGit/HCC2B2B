@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-599(Verify on choosing Return to Homepage option will redirect to homepage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a643f95b-52f4-4912-9d21-da1de66efb65</testCaseGuid>
+</TestCaseEntity>

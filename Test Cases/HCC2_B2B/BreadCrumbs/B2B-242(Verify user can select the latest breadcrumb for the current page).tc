@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-242(Verify user can select the latest breadcrumb for the current page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee081063-56f6-466f-b2ab-feb5dad79273</testCaseGuid>
+</TestCaseEntity>

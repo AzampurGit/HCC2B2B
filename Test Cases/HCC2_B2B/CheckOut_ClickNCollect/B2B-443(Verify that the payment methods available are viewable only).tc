@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-443(Verify that the payment methods available are viewable only)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c43bd505-fcba-490a-9ab6-d150b49a98b7</testCaseGuid>
+</TestCaseEntity>

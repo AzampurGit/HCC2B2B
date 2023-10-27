@@ -55,7 +55,7 @@ public class DeliveryOptions {
 	@Keyword
 	def VerifySelectDeliveryOptionUnderitsOption() 
 	{
-		WebUI.scrollToPosition(50, 100)
+		WebUI.scrollToElement(findTestObject('Object Repository/DeliveryAddress/Button_Change_CustomerDetails_Checkout'), 2)
 		WebUI.click(findTestObject('Object Repository/DeliveryOptions/Dropdown_DeliveryOptions'))
 		WebUI.click(findTestObject('Object Repository/DeliveryOptions/Button_Select_DeliveryOptions'))
 		WebUI.verifyElementNotPresent(findTestObject('Object Repository/DeliveryOptions/Button_Select_DeliveryOptions'),2)
@@ -65,7 +65,7 @@ public class DeliveryOptions {
 	@Keyword
 	def CheckmaximumCharactersAddedIntoDeliveryInstruction()
 	{
-		WebUI.scrollToPosition(50, 100)
+		WebUI.scrollToElement(findTestObject('Object Repository/DeliveryAddress/Button_Change_CustomerDetails_Checkout'), 2)
 		WebUI.click(findTestObject('Object Repository/DeliveryOptions/Dropdown_DeliveryOptions'))
 		WebUI.click(findTestObject('Object Repository/DeliveryOptions/Button_Select_DeliveryOptions'))
 		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOptions/Textbox_DeliveryInstructions'), GlobalVariable.Lax50Char_DeliveryInstruction)
@@ -76,6 +76,16 @@ public class DeliveryOptions {
 		WebUI.click(findTestObject('Object Repository/ProductReview_OnlineDelivery/Link_HomePage_logo'))
 		WebUI.click(findTestObject('Object Repository/Add_ToTrolley/Button_Trolley'))
 	}
+	@Keyword
+	def SelectDeliveryOptionsAtCheckout()
+	{
+		WebUI.scrollToElement(findTestObject('Object Repository/DeliveryAddress/Button_Change_CustomerDetails_Checkout'), 2)
+		WebUI.click(findTestObject('Object Repository/DeliveryOptions/Dropdown_DeliveryOptions'))
+		WebUI.click(findTestObject('Object Repository/DeliveryOptions/Button_Select_DeliveryOptions'))
+		WebUI.sendKeys(findTestObject('Object Repository/DeliveryOptions/Textbox_DeliveryInstructions'), GlobalVariable.Lax50Char_DeliveryInstruction)
+		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'))
+	    
+		}
 			
 }
 

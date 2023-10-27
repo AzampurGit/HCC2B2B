@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-459(Verify if address has not added, then user can enter the address details on checkout page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>416d4eb3-561e-4381-8688-51fda0b41804</testCaseGuid>
+</TestCaseEntity>

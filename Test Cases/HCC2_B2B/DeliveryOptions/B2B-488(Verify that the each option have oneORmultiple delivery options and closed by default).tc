@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-488(Verify that the each option have oneORmultiple delivery options and closed by default)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcab7796-b1ba-4637-a15d-79f9c2f2b108</testCaseGuid>
+</TestCaseEntity>

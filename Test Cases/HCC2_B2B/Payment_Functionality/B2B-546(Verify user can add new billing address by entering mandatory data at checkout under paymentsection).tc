@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-546(Verify user can add new billing address by entering mandatory data at checkout under paymentsection)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea53d827-3ebe-4fde-8fa0-e501e9fad9d8</testCaseGuid>
+</TestCaseEntity>

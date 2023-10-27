@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-542(Verify user can view the Billing address under payment at Checkout for nonlogged user)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da8a5561-9fe5-4874-af7b-3dbd2898dea5</testCaseGuid>
+</TestCaseEntity>

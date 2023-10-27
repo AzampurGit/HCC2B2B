@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-576(Verify the Place Order now will remain disabled until the user has entered all the required fields)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eced4016-8767-4d61-9a69-eb16ff9037ac</testCaseGuid>
+</TestCaseEntity>

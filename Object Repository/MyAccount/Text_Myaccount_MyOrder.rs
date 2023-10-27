@@ -6,12 +6,11 @@
    <elementGuidId>7ad57404-28f7-4e68-b086-2cc84fbec652</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@href='/sales/order/history']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@class='d-flex justify-content-between align-items-center list-group-item'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

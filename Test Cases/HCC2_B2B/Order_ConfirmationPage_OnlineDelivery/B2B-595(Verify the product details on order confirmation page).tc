@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-595(Verify the product details on order confirmation page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da6c7a02-32ae-483a-8aa6-5f398a03d74a</testCaseGuid>
+</TestCaseEntity>

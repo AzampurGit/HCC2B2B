@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-403(Verify CTA along side each product with Pick Available qty, Deliver online, Remove options)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4018185-1b54-40f5-9626-eb77823ca74d</testCaseGuid>
+</TestCaseEntity>

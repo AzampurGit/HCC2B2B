@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-334(Verify Admin user can delete the selected DPD shipment)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de7986cb-92d7-40af-9565-e11fa95e2cc3</testCaseGuid>
+</TestCaseEntity>

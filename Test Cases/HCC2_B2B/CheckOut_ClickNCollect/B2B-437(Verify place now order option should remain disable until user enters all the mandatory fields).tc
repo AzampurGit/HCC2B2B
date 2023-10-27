@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-437(Verify place now order option should remain disable until user enters all the mandatory fields)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2a03600-411c-4c58-bdcc-ea4908a9379a</testCaseGuid>
+</TestCaseEntity>

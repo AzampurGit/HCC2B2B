@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='d-flex align-items-center trolley-wrapper']</value>
+         <value>//button[contains(@class,'center trolley-wrapper')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

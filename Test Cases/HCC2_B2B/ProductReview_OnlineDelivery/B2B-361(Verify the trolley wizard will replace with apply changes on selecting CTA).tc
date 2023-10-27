@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-361(Verify the trolley wizard will replace with apply changes on selecting CTA)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd398293-4a15-4db9-a965-b6e8859ce705</testCaseGuid>
+</TestCaseEntity>

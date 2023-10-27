@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-332(Verify the default magento grid to view shipment report under DPD)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5860701a-a4c6-471d-a917-bd0e469386ee</testCaseGuid>
+</TestCaseEntity>

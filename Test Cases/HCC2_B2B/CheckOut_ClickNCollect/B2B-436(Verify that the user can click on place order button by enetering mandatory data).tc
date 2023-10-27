@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-436(Verify that the user can click on place order button by enetering mandatory data)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>668c912a-fc9f-4c99-b79e-e99f11598dcd</testCaseGuid>
+</TestCaseEntity>

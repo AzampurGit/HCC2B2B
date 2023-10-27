@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@href='/pick-n-mix'])[2]</value>
+         <value>//a[@href='/pick-n-mix']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

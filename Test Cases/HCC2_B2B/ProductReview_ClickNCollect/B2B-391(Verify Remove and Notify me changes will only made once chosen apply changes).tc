@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-391(Verify Remove and Notify me changes will only made once chosen apply changes)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e49e558-86d5-4637-8957-d989713c9fb0</testCaseGuid>
+</TestCaseEntity>

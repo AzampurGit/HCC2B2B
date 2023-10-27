@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-497(Verify the section will close while reflecting the selected delivery options and next section opens)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5843fb3-8999-460e-bf86-ec1786416b04</testCaseGuid>
+</TestCaseEntity>

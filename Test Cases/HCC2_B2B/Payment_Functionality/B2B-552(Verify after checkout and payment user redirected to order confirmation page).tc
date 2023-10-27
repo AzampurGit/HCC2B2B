@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-552(Verify after checkout and payment user redirected to order confirmation page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f246ae91-e6bf-4512-b858-ff49edbae197</testCaseGuid>
+</TestCaseEntity>

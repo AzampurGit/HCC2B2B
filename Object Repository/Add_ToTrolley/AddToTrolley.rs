@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='primary-btn d-flex justify-content-center align-items-center'])[1]</value>
+         <value>(//button[contains(text(),'Add')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

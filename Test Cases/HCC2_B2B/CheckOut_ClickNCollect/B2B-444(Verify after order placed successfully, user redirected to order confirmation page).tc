@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-444(Verify after order placed successfully, user redirected to order confirmation page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7be7c51-5923-4b2f-92d4-88bd481e9a33</testCaseGuid>
+</TestCaseEntity>

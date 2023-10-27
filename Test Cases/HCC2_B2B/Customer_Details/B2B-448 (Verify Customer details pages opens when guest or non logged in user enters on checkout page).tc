@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-448 (Verify Customer details pages opens when guest or non logged in user enters on checkout page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5fdb412-265b-4f6e-8fc6-674117e0d120</testCaseGuid>
+</TestCaseEntity>

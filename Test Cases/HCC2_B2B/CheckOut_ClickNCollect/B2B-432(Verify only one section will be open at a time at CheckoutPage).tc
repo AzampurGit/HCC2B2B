@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-432(Verify only one section will be open at a time at CheckoutPage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9488abbd-ac17-4ada-89c7-ce36ec6d8ace</testCaseGuid>
+</TestCaseEntity>

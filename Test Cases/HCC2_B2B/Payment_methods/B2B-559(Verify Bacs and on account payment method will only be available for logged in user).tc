@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-559(Verify Bacs and on account payment method will only be available for logged in user)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2f85fa3-46b4-4011-b2b9-dcf159670a48</testCaseGuid>
+</TestCaseEntity>

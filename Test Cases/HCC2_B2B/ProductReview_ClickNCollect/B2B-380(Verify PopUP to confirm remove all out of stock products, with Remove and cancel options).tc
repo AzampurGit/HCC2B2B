@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-380(Verify PopUP to confirm remove all out of stock products, with Remove and cancel options)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8222b3fe-70d7-48cf-b7a6-aa3a7ef1928b</testCaseGuid>
+</TestCaseEntity>

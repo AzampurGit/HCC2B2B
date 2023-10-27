@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-551(Verify the fields will be pre-filled while editing the billing address at checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>134c235a-04ef-4da0-8270-e6e3a4a395fa</testCaseGuid>
+</TestCaseEntity>

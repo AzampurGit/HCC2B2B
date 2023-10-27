@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-435(Verify that the user can change the details of the previous section at any time)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d377bc2c-cf29-410a-befc-719becce9dfe</testCaseGuid>
+</TestCaseEntity>

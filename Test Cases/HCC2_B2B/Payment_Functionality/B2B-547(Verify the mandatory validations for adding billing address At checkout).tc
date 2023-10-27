@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-547(Verify the mandatory validations for adding billing address At checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77e79081-f862-4e69-abde-78be3a3bb47c</testCaseGuid>
+</TestCaseEntity>

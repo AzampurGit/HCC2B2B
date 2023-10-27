@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-594(Verify user view shipping address for online delivery At OrderConfirmationPage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e442e9f-8caf-4196-b6bd-1a179c1459f4</testCaseGuid>
+</TestCaseEntity>

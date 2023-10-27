@@ -97,7 +97,7 @@ public class Checkout_ClickNCollect {
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'))
 		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_FirstName'), GlobalVariable.FirstName)
 		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_LastName_Checkout'), GlobalVariable.LastName)
-		WebUI.scrollToPosition(250, 300)
+		WebUI.scrollToElement(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Image_Mastercard_paymentmethod'), 2)
 		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Next_Checkout_ClickNCollect'))
 
 		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_CardNumber_Checkout'), GlobalVariable.CardNumber)
@@ -123,7 +123,7 @@ public class Checkout_ClickNCollect {
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'))
 		WebUI.sendKeys(findTestObject('Object Repository/ViewAddressBook/TextBox_FirstName'), GlobalVariable.FirstName)
 		WebUI.sendKeys(findTestObject('Object Repository/CheckOut_ClickNCollect/Textbox_LastName_Checkout'), GlobalVariable.LastName)
-		WebUI.scrollToPosition(250, 300)
+		WebUI.scrollToElement(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Image_Mastercard_paymentmethod'), 2)
 		//WebUI.scrollToElement(findTestObject, 0)
 		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Next_Checkout_ClickNCollect'))
 		WebUI.scrollToPosition(300, 350)
@@ -151,6 +151,7 @@ public class Checkout_ClickNCollect {
 	@Keyword
 	def CheckAccordioncollapseExpandFunctionalityToviewAddeProducts() {
 
+		WebUI.scrollToElement(findTestObject('Object Repository/TrolleySummary/Text_ApplyDiscountCoupon'), 2)
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Link_Accordion_collapsed_checkout'))
 		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_CollapssedAccordion_checkout'))
 	}

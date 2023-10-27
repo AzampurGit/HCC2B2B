@@ -33,6 +33,7 @@ public class CheckoutPage_OnlineDelivery {
 			assert WebUI.verifyElementVisible(findTestObject('Object Repository/ProductReview_OnlineDelivery/Text_TrolleySummary_ProductReview')) == true
 		}
 		else {
+			WebUI.waitForElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'), 5)
 			WebUI.click(findTestObject('Object Repository/ViewTrolleyPage/Button_Continue_TrolleyPage'))
 			WebUI.verifyElementPresent(findTestObject('Object Repository/ViewTrolleyPage/Text_Checkout'), 2)
 			//assert WebUI.verifyElementVisible(findTestObject('Object Repository/ViewTrolleyPage/Text_Checkout')) == true
@@ -79,6 +80,7 @@ public class CheckoutPage_OnlineDelivery {
 	@Keyword
 	def CheckDropdownAccordionForItemsAddedInCart()
 	{
+		WebUI.scrollToElement(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Button_Next_checkout'), 0)
 		WebUI.click(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Link_Accordion_collapsed_checkout'))
 		assert WebUI.verifyElementVisible(findTestObject('Object Repository/Checkoutpage_onlineDelivery/Link_Accordioncollpased')) == true
 	}

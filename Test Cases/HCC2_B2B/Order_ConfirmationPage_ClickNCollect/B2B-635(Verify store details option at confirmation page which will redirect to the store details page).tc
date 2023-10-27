@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-635(Verify store details option at confirmation page which will redirect to the store details page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1b839c1-b84f-49f0-9850-9dc224f2c731</testCaseGuid>
+</TestCaseEntity>

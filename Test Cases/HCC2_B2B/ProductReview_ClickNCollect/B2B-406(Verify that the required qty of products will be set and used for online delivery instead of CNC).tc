@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-406(Verify that the required qty of products will be set and used for online delivery instead of CNC)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a8de869-9e31-4fdc-a573-5b7d8e8e9ef2</testCaseGuid>
+</TestCaseEntity>

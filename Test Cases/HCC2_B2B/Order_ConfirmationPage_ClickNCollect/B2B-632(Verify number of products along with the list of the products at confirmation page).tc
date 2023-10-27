@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-632(Verify number of products along with the list of the products at confirmation page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9a578b2-1097-4377-9895-c6f1b204ae65</testCaseGuid>
+</TestCaseEntity>

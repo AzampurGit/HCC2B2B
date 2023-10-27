@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-413(Verify that user can proceed to checkout once all validations met)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcdc46b2-9a69-470c-ac23-ee7135a95fcc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-416(Verify customer details,shipping address,deliveryOption, paymentOptions on checkout page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7222748-6bac-4d4b-9bc2-a7941d8a3857</testCaseGuid>
+</TestCaseEntity>

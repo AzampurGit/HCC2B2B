@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-402(Verify user add product from alternative product section at ProductReview)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2d86976-9a91-475b-881b-fb2d2becffb1</testCaseGuid>
+</TestCaseEntity>

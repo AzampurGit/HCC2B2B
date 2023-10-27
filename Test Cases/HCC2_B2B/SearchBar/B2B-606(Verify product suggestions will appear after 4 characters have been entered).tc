@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-606(Verify product suggestions will appear after 4 characters have been entered)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3dbc5a6-a9a5-48cf-b7a8-6e76d1836d28</testCaseGuid>
+</TestCaseEntity>

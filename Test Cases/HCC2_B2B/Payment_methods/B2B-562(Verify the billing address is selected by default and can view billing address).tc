@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-562(Verify the billing address is selected by default and can view billing address)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85f9121b-d9d4-46df-a71e-d6b71682832b</testCaseGuid>
+</TestCaseEntity>

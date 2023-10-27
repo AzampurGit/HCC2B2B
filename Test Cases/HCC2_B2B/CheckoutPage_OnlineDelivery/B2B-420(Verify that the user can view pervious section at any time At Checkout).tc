@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-420(Verify that the user can view pervious section at any time At Checkout)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5db1f404-1536-4d05-bc1a-c86836113699</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-558(Verify when these two methods enabled user cannot user pay by card method)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b93b9b26-eb16-4323-a456-8a3832e21c8f</testCaseGuid>
+</TestCaseEntity>

@@ -111,7 +111,7 @@ public class Payment_Functionality {
 	}
 	@Keyword
 	def RedirectToOrderConfirmationPageFromCheckout(String CheckoutComPassword) {
-		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_Disabled_PlaceOrder_Checkout'))
+		WebUI.click(findTestObject('Object Repository/CheckOut_ClickNCollect/Button_PLaceOrder_Checkout'))
 		WebUI.waitForPageLoad(15, FailureHandling.STOP_ON_FAILURE)
 		WebUI.switchToWindowTitle(GlobalVariable.CheckoutComWindowName, FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Payment_Functionality/Textbox_Checkout.com_pass'),3)
@@ -120,7 +120,5 @@ public class Payment_Functionality {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Payment_Functionality/Text_Order_ConfirmationPage'), 2)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Payment_Functionality/Text_Order_ConfirmationPage'), 2)
 	}
-	@Keyword
-	def CheckValidationsForPaymentwithInvalidCardDetails(String Card) {
-	}
+	
 }

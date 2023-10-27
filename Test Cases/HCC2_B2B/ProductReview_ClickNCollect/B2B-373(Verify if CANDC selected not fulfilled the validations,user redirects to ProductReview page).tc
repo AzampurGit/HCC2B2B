@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-373(Verify if CANDC selected not fulfilled the validations,user redirects to ProductReview page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeaef8de-c035-49b2-8335-1458d04aa8fb</testCaseGuid>
+</TestCaseEntity>

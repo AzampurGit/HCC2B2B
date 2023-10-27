@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-449(Verify user has to enter email address for non logged in user on customer details page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b76908a-9107-4d05-a832-789e662dee25</testCaseGuid>
+</TestCaseEntity>

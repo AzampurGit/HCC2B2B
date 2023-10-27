@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-536(Verify on choosing the express checkout through paypal user must redirect on Paypal)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13b7360c-ae7c-4b7d-bb4a-c3ceda538caa</testCaseGuid>
+</TestCaseEntity>

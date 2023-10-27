@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-473(Verify that upon choosing to change, the selected address will be pre-selected)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14275d75-96e6-4792-88be-a377a8b8e6df</testCaseGuid>
+</TestCaseEntity>

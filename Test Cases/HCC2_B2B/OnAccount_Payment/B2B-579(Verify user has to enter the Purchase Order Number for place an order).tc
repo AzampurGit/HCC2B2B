@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2B-579(Verify user has to enter the Purchase Order Number for place an order)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc2bafa5-1a64-49e3-9975-028707592de8</testCaseGuid>
+</TestCaseEntity>
