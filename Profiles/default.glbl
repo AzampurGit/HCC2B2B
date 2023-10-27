@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint1-Automation'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6'</initValue>
       <name>TestPlan_Sprint1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint1-Automation Build'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6-Build'</initValue>
       <name>BuildName_Sprint1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test@123'</initValue>
+      <initValue>'Test@123456'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ravindersingh.ts@gmail.com'</initValue>
+      <initValue>'ravinderhcc2@mailinator.com'</initValue>
       <name>Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'25'</initValue>
+      <initValue>'45'</initValue>
       <name>MiniCartQty</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -156,32 +156,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint2-Automation'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6'</initValue>
       <name>TestPlan_Sprint2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint2-Automation Build'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6-Build'</initValue>
       <name>BuildName_Sprint2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint3-Automation'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6'</initValue>
       <name>TestPlan_Sprint3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint3-Automation Build'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6-Build'</initValue>
       <name>BuildName_Sprint3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint4-Automation'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6'</initValue>
       <name>TestPlan_Sprint4</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint4-Automation Build'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6-Build'</initValue>
       <name>BuildName_Sprint4</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -201,12 +201,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint5-Automation'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6'</initValue>
       <name>TestPlan_Sprint5</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint5-Automation Build'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6-Build'</initValue>
       <name>BuildName_Sprint5</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -226,12 +226,212 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint6-Automation'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6'</initValue>
       <name>TestPlan_Sprint6</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Sprint6-Automation Build'</initValue>
+      <initValue>'Regression-Automation-SprintUpto6-Build'</initValue>
       <name>BuildName_Sprint6</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test@yopmail.com'</initValue>
+      <name>CheckooutEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sorry30'</initValue>
+      <name>DiscountCoupon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345abc'</initValue>
+      <name>InvalidDiscountCoupon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'54000'</initValue>
+      <name>SKUInStock</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'27154'</initValue>
+      <name>SKUForOutOfStockOnline</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4242424242424242'</initValue>
+      <name>CardNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'100'</initValue>
+      <name>CVVNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ravinder'</initValue>
+      <name>CardHolderName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12/29'</initValue>
+      <name>CardExpiry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'34394'</initValue>
+      <name>ForAllOptions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8'</initValue>
+      <name>Quantity_AddedForAllOption</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TestTestTestTestTestTestTestTestTestTestTestTest12'</initValue>
+      <name>Lax50Char_DeliveryInstruction</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'18415'</initValue>
+      <name>SkuForPDP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.mailinator.com/'</initValue>
+      <name>MailinatorUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test@123456'</initValue>
+      <name>ConfirmPassForgot</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test@12'</initValue>
+      <name>PasswordLessThan8lenght</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TESTINGG'</initValue>
+      <name>UpperCasePass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'testingg'</initValue>
+      <name>LowercasePass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345678'</initValue>
+      <name>NumbersonlyPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sprint7-Automation'</initValue>
+      <name>TestPlan_Sprint7</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sprint7-Automation Build'</initValue>
+      <name>BuildName_Sprint7</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SW1A0AA'</initValue>
+      <name>AddPostCodeBillingAdd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Checkout1!'</initValue>
+      <name>CheckoutComPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3DS2 Challenge'</initValue>
+      <name>CheckoutComWindowName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4000000000000000'</initValue>
+      <name>IncorrectCardNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'02/22'</initValue>
+      <name>IncorrectCardExpiry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'00'</initValue>
+      <name>IncorrectCvvNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CardholderBlank</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Quality Street'</initValue>
+      <name>ProductName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['SKU', 'Product Name']</initValue>
+      <name>Search</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Quality Street Chocolate tub 600g'</initValue>
+      <name>SearchSpecificProduct</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hcc2-qc.hancocks.co.uk/wclconsole'</initValue>
+      <name>AdminUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Nokia$321'</initValue>
+      <name>AdminPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin1'</initValue>
+      <name>AdminUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SW1A0AA'</initValue>
+      <name>postcodeSW</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'OnAccount'</initValue>
+      <name>OnAccountPurchase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'choc'</initValue>
+      <name>SearchWith4Char</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5'</initValue>
+      <name>SizeOfSearchElements</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'o'</initValue>
+      <name>Onaccountvalidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'On Hold'</initValue>
+      <name>OnHoldStatus</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
